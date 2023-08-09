@@ -21,10 +21,10 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/logger_fragment"
-        android:name="com.example.coroutinesexample.LoggerFragment"
+        android:name="com.example.coroutinesexample.logger.LoggerFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:context=".LoggerFragment"
+        tools:context=".logger.LoggerFragment"
         />
 </LinearLayout>

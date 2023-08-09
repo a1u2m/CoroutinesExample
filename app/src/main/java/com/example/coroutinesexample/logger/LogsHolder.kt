@@ -1,4 +1,4 @@
-package com.example.coroutinesexample
+package com.example.coroutinesexample.logger
 
 import androidx.recyclerview.widget.RecyclerView
 import com.example.coroutinesexample.databinding.LoggerItemBinding

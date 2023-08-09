@@ -1,4 +1,4 @@
-package com.example.coroutinesexample
+package com.example.coroutinesexample.logger
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

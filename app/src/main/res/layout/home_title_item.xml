@@ -2,10 +2,12 @@
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/body"
+    android:id="@+id/title"
+    style="@style/Title"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginVertical="@dimen/margin_x1"
-    android:textColor="@color/darkGrey"
-    tools:text="Что-то где-то произошло"
+    android:layout_gravity="center|top"
+    android:textColor="@color/black"
+    tools:text="Представим что это заголовок"
     />

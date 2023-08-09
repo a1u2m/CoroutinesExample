@@ -2,4 +2,7 @@
     <string name="app_name">CoroutinesExample</string>
     <string name="logTitle">Лог</string>
     <string name="loClearButton">Очистить</string>
+    <string name="titleDispatchers">Диспетчеры</string>
+    <string name="buttonGo">Перейти</string>
+    <string name="dispatchersCase1">Поменять потом на нормальное описание</string>
 </resources>

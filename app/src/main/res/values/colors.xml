@@ -5,4 +5,6 @@
     <color name="grey">#DADADA</color>
     <color name="darkGrey">#555555</color>
     <color name="darkBlue">#000080</color>
+    <color name="lightBlue">#87CEFA</color>
+    <color name="lightGreen">#98FB98</color>
 </resources>

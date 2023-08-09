@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/margin_x2"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_x2"
+        android:layout_marginEnd="@dimen/margin_x2"
+        android:textColor="@color/black"
+        tools:text="Тут описание кейса очень длинное может быть да настока длинное что капец прям"
+        />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_x1"
+        android:layout_marginStart="@dimen/margin_x2"
+        />
+</LinearLayout>

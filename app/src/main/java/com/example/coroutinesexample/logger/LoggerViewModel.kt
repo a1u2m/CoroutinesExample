@@ -1,4 +1,4 @@
-package com.example.coroutinesexample
+package com.example.coroutinesexample.logger
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
