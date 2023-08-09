@@ -14,11 +14,9 @@ class LoggerViewModel : ViewModel() {
         _logs.value = mutableListOf()
     }
 
-    fun testFillItems() {
-        val testList = _logs.value
-        for (i in 1..10) {
-            testList?.add(LogItem("Tag Дочерние корутины внутри родительских$i"))
-        }
-        _logs.value = testList!!
+    fun addLog(msg: String) { //todo не нравится такая схема, триггерится только при изменении значения лд, а не изменении листа
+        val tempList = _logs.value ?: mutableListOf()
+        tempList.add(LogItem(msg))
+        _logs.value = tempList
     }
 }
