@@ -23,6 +23,17 @@
         />
 
     <Button
+        android:id="@+id/stopAutoScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/title"
+        app:layout_constraintEnd_toStartOf="@id/clearButton"
+        android:layout_marginTop="@dimen/margin_x1"
+        android:text="@string/autoscrollOn"
+        />
+
+    <Button
         android:id="@+id/clearButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

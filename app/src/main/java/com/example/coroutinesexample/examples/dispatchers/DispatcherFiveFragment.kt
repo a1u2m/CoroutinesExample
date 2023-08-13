@@ -4,11 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import com.example.coroutinesexample.databinding.FragmentDispatcherFiveBinding
+import com.example.coroutinesexample.examples.BaseExampleFragment
 
-class DispatcherFiveFragment : Fragment() {
+class DispatcherFiveFragment : BaseExampleFragment() {
 
+    override val description = "Пятый пример с диспетчером"
     lateinit var binding: FragmentDispatcherFiveBinding
 
 

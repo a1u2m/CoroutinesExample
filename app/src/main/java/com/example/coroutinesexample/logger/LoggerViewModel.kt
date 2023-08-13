@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 
 class LoggerViewModel : ViewModel() {
 
+    var isAutoScrollEnabled = true
     private val _logs = MutableLiveData<MutableList<LogItem>>().apply { value = mutableListOf() }
     val logs: LiveData<MutableList<LogItem>> //todo не отдавать наружу мутабельное
         get() = _logs
@@ -18,5 +19,13 @@ class LoggerViewModel : ViewModel() {
         val tempList = _logs.value ?: mutableListOf()
         tempList.add(LogItem(msg))
         _logs.value = tempList
+    }
+
+    fun stopAutoScroll() {
+        isAutoScrollEnabled = false
+    }
+
+    fun startAutoScroll() {
+        isAutoScrollEnabled = true
     }
 }

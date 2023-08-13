@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentLoggerBinding
 
 class LoggerFragment : Fragment() {
@@ -29,6 +30,12 @@ class LoggerFragment : Fragment() {
         vm.logs.observe(viewLifecycleOwner) { items ->
             adapter.items = items
             adapter.notifyItemInserted(adapter.itemCount - 1)
+            if (adapter.itemCount > 2 && vm.isAutoScrollEnabled)
+                binding.logRecycler.smoothScrollToPosition(adapter.itemCount - 1)
+        }
+
+        binding.stopAutoScroll.setOnClickListener {
+            handleAutoStopClick()
         }
 
         binding.clearButton.setOnClickListener {
@@ -38,5 +45,15 @@ class LoggerFragment : Fragment() {
         binding.logRecycler.adapter = adapter
         binding.logRecycler.layoutManager =
             LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
+    }
+
+    private fun handleAutoStopClick() {
+        if (vm.isAutoScrollEnabled) {
+            vm.stopAutoScroll()
+            binding.stopAutoScroll.text = resources.getString(R.string.autoscrollOff)
+        } else {
+            vm.startAutoScroll()
+            binding.stopAutoScroll.text = resources.getString(R.string.autoscrollOn)
+        }
     }
 }

@@ -4,5 +4,9 @@
     <string name="loClearButton">Очистить</string>
     <string name="titleDispatchers">Диспетчеры</string>
     <string name="buttonGo">Перейти</string>
+    <string name="autoscrollOn">Выкл автоскролл</string>
+    <string name="autoscrollOff">Вкл автоскролл</string>
+    <string name="openExample">Открыт пример: %1$s</string>
+    <string name="quitExample">Закрыт пример: %1$s</string>
     <string name="dispatchersCase1">Поменять потом на нормальное описание</string>
 </resources>

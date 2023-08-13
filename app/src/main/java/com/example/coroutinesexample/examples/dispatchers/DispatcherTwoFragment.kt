@@ -4,11 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import com.example.coroutinesexample.databinding.FragmentDispatcherTwoBinding
+import com.example.coroutinesexample.examples.BaseExampleFragment
 
-class DispatcherTwoFragment : Fragment() {
+class DispatcherTwoFragment : BaseExampleFragment() {
 
+    override val description = "Второй пример с диспетчером"
     lateinit var binding: FragmentDispatcherTwoBinding
 
     override fun onCreateView(
