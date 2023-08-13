@@ -1,7 +1,5 @@
 package com.example.coroutinesexample.home
 
-import android.util.Log
-import android.view.View
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -17,21 +15,11 @@ class HomeViewModel : ViewModel() {
     init {
         val temp = mutableListOf<HomeItemModel>() //todo в онклик навигацию прокинуть
         temp.add(HomeItemModel.HomeTitleItem(R.string.titleDispatchers))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, {
-            Log.d("topkek", "1")
-        }))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1) {
-            Log.d("topkek", "2")
-        })
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1) {
-            Log.d("topkek", "3")
-        })
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1) {
-            Log.d("topkek", "4")
-        })
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1) {
-            Log.d("topkek", "5")
-        })
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersOne))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersTwo))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersThree))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersFour))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersFive))
         _items.value = temp
     }
 

@@ -1,6 +1,5 @@
 package com.example.coroutinesexample.home
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -13,12 +12,6 @@ class HomeAdapter : RecyclerView.Adapter<BaseHomeHolder>() {
 
     override fun onBindViewHolder(holder: BaseHomeHolder, position: Int) {
         holder.bind(items[position])
-
-        if (holder is ItemHolder) {
-            holder.binding.button.setOnClickListener {
-                Log.d("topkek", "${items[position]}")
-            }
-        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseHomeHolder {

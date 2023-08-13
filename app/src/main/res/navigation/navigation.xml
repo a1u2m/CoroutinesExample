@@ -11,6 +11,66 @@
         android:name="com.example.coroutinesexample.home.HomeFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/toDispatchersOne"
+            app:destination="@id/dispatcherOneFragment"
+            />
+
+        <action
+            android:id="@+id/toDispatchersTwo"
+            app:destination="@id/dispatcherTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toDispatchersThree"
+            app:destination="@id/dispatcherThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toDispatchersFour"
+            app:destination="@id/dispatcherFourFragment"
+            />
+
+        <action
+            android:id="@+id/toDispatchersFive"
+            app:destination="@id/dispatcherFiveFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dispatcherOneFragment"
+        android:name="com.example.coroutinesexample.examples.dispatchers.DispatcherOneFragment"
+        android:label="fragment_dispatchers_one"
+        tools:layout="@layout/fragment_dispatcher_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/dispatcherTwoFragment"
+        android:name="com.example.coroutinesexample.examples.dispatchers.DispatcherTwoFragment"
+        android:label="fragment_dispatchers_two"
+        tools:layout="@layout/fragment_dispatcher_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/dispatcherThreeFragment"
+        android:name="com.example.coroutinesexample.examples.dispatchers.DispatcherThreeFragment"
+        android:label="fragment_dispatchers_three"
+        tools:layout="@layout/fragment_dispatcher_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/dispatcherFourFragment"
+        android:name="com.example.coroutinesexample.examples.dispatchers.DispatcherFourFragment"
+        android:label="fragment_dispatchers_four"
+        tools:layout="@layout/fragment_dispatcher_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/dispatcherFiveFragment"
+        android:name="com.example.coroutinesexample.examples.dispatchers.DispatcherFiveFragment"
+        android:label="fragment_dispatchers_five"
+        tools:layout="@layout/fragment_dispatcher_five" >
     </fragment>
 
 </navigation>
