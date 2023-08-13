@@ -4,12 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentDispatcherFiveBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
 
 class DispatcherFiveFragment : BaseExampleFragment() {
 
-    override val description = "Пятый пример с диспетчером"
+    override val description: String by lazy {
+        resources.getString(R.string.dispatchersCase5)
+    }
     lateinit var binding: FragmentDispatcherFiveBinding
 
 

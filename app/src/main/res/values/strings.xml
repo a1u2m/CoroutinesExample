@@ -8,5 +8,9 @@
     <string name="autoscrollOff">Вкл автоскролл</string>
     <string name="openExample">Открыт пример: %1$s</string>
     <string name="quitExample">Закрыт пример: %1$s</string>
-    <string name="dispatchersCase1">Поменять потом на нормальное описание</string>
+    <string name="dispatchersCase1">Дефолтный диспетчер. Смотрим какой диспетчер создается без явного указания диспетчера.</string>
+    <string name="dispatchersCase2">Дефолтный диспетчер. Смотрим сколько максимум одновременных потоков может быть при использовании дефолтного диспетчера.</string>
+    <string name="dispatchersCase3">IO диспетчер. Смотрим сколько максимум одновременных потоков может быть при использовании IO диспетчера.</string>
+    <string name="dispatchersCase4">Создание собственного диспетчера с одним потоком.</string>
+    <string name="dispatchersCase5">Unconfined диспетчер. Особенности работы.</string>
 </resources>

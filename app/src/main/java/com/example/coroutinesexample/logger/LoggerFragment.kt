@@ -1,5 +1,6 @@
 package com.example.coroutinesexample.logger
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -24,6 +25,7 @@ class LoggerFragment : Fragment() {
         return binding.root
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -40,6 +42,7 @@ class LoggerFragment : Fragment() {
 
         binding.clearButton.setOnClickListener {
             vm.clearLogs()
+            adapter.notifyDataSetChanged()
         }
 
         binding.logRecycler.adapter = adapter

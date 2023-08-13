@@ -13,13 +13,13 @@ class HomeViewModel : ViewModel() {
         get() = _items
 
     init {
-        val temp = mutableListOf<HomeItemModel>() //todo в онклик навигацию прокинуть
+        val temp = mutableListOf<HomeItemModel>()
         temp.add(HomeItemModel.HomeTitleItem(R.string.titleDispatchers))
         temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersOne))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersTwo))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersThree))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersFour))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersFive))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase2, R.id.toDispatchersTwo))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase3, R.id.toDispatchersThree))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase4, R.id.toDispatchersFour))
+        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase5, R.id.toDispatchersFive))
         _items.value = temp
     }
 
