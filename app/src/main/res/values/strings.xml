@@ -98,6 +98,6 @@
     <string name="flowCase25">Проверяем параметр replay у SharedFlow</string>
     <string name="flowCase26">Проверяем что корутина приостанавливается пока ждет следующий элемент флоу</string>
     <string name="titleOperators">Операторы</string>
-    <string name="OperatorsCase1">Используем оператор select</string>
-    <string name="OperatorsCase2">Используем оператор actor</string>
+    <string name="operatorsCase1">Используем оператор select</string>
+    <string name="operatorsCase2">Используем оператор actor</string>
 </resources>
