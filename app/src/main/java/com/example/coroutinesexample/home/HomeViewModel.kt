@@ -20,6 +20,33 @@ class HomeViewModel : ViewModel() {
         temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase3, R.id.toDispatchersThree))
         temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase4, R.id.toDispatchersFour))
         temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase5, R.id.toDispatchersFive))
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleErrors))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleBuilders))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleSuspend))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleCoroutines))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScope))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScopeFunctions))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleChannels))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleFlow))
+
+
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleOperators))
+
         _items.value = temp
     }
 
