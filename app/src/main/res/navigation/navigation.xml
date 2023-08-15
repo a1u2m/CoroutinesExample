@@ -36,6 +36,396 @@
             android:id="@+id/toDispatchersFive"
             app:destination="@id/dispatcherFiveFragment"
             />
+
+        <action
+            android:id="@+id/toErrorsOne"
+            app:destination="@id/errorsOneFragment"
+            />
+
+        <action
+            android:id="@+id/toErrorsTwo"
+            app:destination="@id/errorsTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toErrorsThree"
+            app:destination="@id/errorsThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toErrorsFour"
+            app:destination="@id/errorsFourFragment"
+            />
+
+        <action
+            android:id="@+id/toErrorsFive"
+            app:destination="@id/errorsFiveFragment"
+            />
+
+        <action
+            android:id="@+id/toErrorsSix"
+            app:destination="@id/errorsSixFragment"
+            />
+
+        <action
+            android:id="@+id/toErrorsSeven"
+            app:destination="@id/errorsSevenFragment"
+            />
+
+        <action
+            android:id="@+id/toBuildersOne"
+            app:destination="@id/buildersOneFragment"
+            />
+
+        <action
+            android:id="@+id/toBuildersTwo"
+            app:destination="@id/buildersTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toBuildersThree"
+            app:destination="@id/buildersThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toBuildersFour"
+            app:destination="@id/buildersFourFragment"
+            />
+
+        <action
+            android:id="@+id/toSuspendOne"
+            app:destination="@id/suspendsOneFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesOne"
+            app:destination="@id/coroutinesOneFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesTwo"
+            app:destination="@id/coroutinesTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesThree"
+            app:destination="@id/coroutinesThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesFour"
+            app:destination="@id/coroutinesFourFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesFive"
+            app:destination="@id/coroutinesFiveFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesSix"
+            app:destination="@id/coroutinesSixFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesSeven"
+            app:destination="@id/coroutinesSevenFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesEight"
+            app:destination="@id/coroutinesEightFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesNine"
+            app:destination="@id/coroutinesNineFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesTen"
+            app:destination="@id/coroutinesTenFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesEleven"
+            app:destination="@id/coroutinesElevenFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesTwelve"
+            app:destination="@id/coroutinesTwelveFragment"
+            />
+
+        <action
+            android:id="@+id/toCoroutinesThirteen"
+            app:destination="@id/coroutinesThirteenFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeOne"
+            app:destination="@id/scopesOneFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeTwo"
+            app:destination="@id/scopesTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeThree"
+            app:destination="@id/scopesThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFour"
+            app:destination="@id/scopesFourFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsOne"
+            app:destination="@id/scopeFunctionsOneFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsTwo"
+            app:destination="@id/scopeFunctionsTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsThree"
+            app:destination="@id/scopeFunctionsThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsFour"
+            app:destination="@id/scopeFunctionsFourFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsFive"
+            app:destination="@id/scopeFunctionsFiveFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsSix"
+            app:destination="@id/scopeFunctionsSixFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsSeven"
+            app:destination="@id/scopeFunctionsSevenFragment"
+            />
+
+        <action
+            android:id="@+id/toScopeFunctionsEight"
+            app:destination="@id/scopeFunctionsEightFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsOne"
+            app:destination="@id/channelsOneFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsTwo"
+            app:destination="@id/channelsTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsThree"
+            app:destination="@id/channelsThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsFour"
+            app:destination="@id/channelsFourFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsFive"
+            app:destination="@id/channelsFiveFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsSix"
+            app:destination="@id/channelsSixFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsSeven"
+            app:destination="@id/channelsSevenFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsEight"
+            app:destination="@id/channelsEightFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsNine"
+            app:destination="@id/channelsNineFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsTen"
+            app:destination="@id/channelsTenFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsEleven"
+            app:destination="@id/channelsElevenFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsTwelve"
+            app:destination="@id/channelsTwelveFragment"
+            />
+
+        <action
+            android:id="@+id/toChannelsThirteen"
+            app:destination="@id/channelsThirteenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowOne"
+            app:destination="@id/flowsOneFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwo"
+            app:destination="@id/flowsTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowThree"
+            app:destination="@id/flowsThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowFour"
+            app:destination="@id/flowsFourFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowFive"
+            app:destination="@id/flowsFiveFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowSix"
+            app:destination="@id/flowsSixFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowSeven"
+            app:destination="@id/flowsSevenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowEight"
+            app:destination="@id/flowsEightFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowNine"
+            app:destination="@id/flowsNineFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTen"
+            app:destination="@id/flowsTenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowEleven"
+            app:destination="@id/flowsElevenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwelve"
+            app:destination="@id/flowsTwelveFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowThirteen"
+            app:destination="@id/flowsThirteenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowFourteen"
+            app:destination="@id/flowsFourteenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowFifteen"
+            app:destination="@id/flowsFifteenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowSixteen"
+            app:destination="@id/flowsSixteenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowSeventeen"
+            app:destination="@id/flowsSeventeenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowEighteen"
+            app:destination="@id/flowsEighteenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowNineteen"
+            app:destination="@id/flowsNineteenFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwenty"
+            app:destination="@id/flowsTwentyFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwentyOne"
+            app:destination="@id/flowsTwentyOneFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwentyTwo"
+            app:destination="@id/flowsTwentyTwoFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwentyThree"
+            app:destination="@id/flowsTwentyThreeFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwentyFour"
+            app:destination="@id/flowsTwentyFourFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwentyFive"
+            app:destination="@id/flowsTwentyFiveFragment"
+            />
+
+        <action
+            android:id="@+id/toFlowTwentySix"
+            app:destination="@id/flowsTwentySixFragment"
+            />
+
+        <action
+            android:id="@+id/toOperatorsOne"
+            app:destination="@id/operatorsOneFragment"
+            />
+
+        <action
+            android:id="@+id/toOperatorsTwo"
+            app:destination="@id/operatorsTwoFragment"
+            />
     </fragment>
 
     <fragment
@@ -73,4 +463,549 @@
         tools:layout="@layout/fragment_dispatcher_five" >
     </fragment>
 
+    <fragment
+        android:id="@+id/errorsOneFragment"
+        android:name="com.example.coroutinesexample.examples.errors.ErrorOneFragment"
+        android:label="fragment_errors_one"
+        tools:layout="@layout/fragment_error_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/errorsTwoFragment"
+        android:name="com.example.coroutinesexample.examples.errors.ErrorTwoFragment"
+        android:label="fragment_errors_two"
+        tools:layout="@layout/fragment_error_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/errorsThreeFragment"
+        android:name="com.example.coroutinesexample.examples.errors.ErrorThreeFragment"
+        android:label="fragment_errors_three"
+        tools:layout="@layout/fragment_error_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/errorsFourFragment"
+        android:name="com.example.coroutinesexample.examples.errors.ErrorFourFragment"
+        android:label="fragment_errors_four"
+        tools:layout="@layout/fragment_error_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/errorsFiveFragment"
+        android:name="com.example.coroutinesexample.examples.errors.ErrorFiveFragment"
+        android:label="fragment_errors_five"
+        tools:layout="@layout/fragment_error_five" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/errorsSixFragment"
+        android:name="com.example.coroutinesexample.examples.errors.ErrorSixFragment"
+        android:label="fragment_errors_six"
+        tools:layout="@layout/fragment_error_six" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/errorsSevenFragment"
+        android:name="com.example.coroutinesexample.examples.errors.ErrorSevenFragment"
+        android:label="fragment_errors_seven"
+        tools:layout="@layout/fragment_error_seven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/buildersOneFragment"
+        android:name="com.example.coroutinesexample.examples.builders.BuilderOneFragment"
+        android:label="fragment_builders_one"
+        tools:layout="@layout/fragment_builders_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/buildersTwoFragment"
+        android:name="com.example.coroutinesexample.examples.builders.BuilderTwoFragment"
+        android:label="fragment_builders_two"
+        tools:layout="@layout/fragment_builders_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/buildersThreeFragment"
+        android:name="com.example.coroutinesexample.examples.builders.BuilderThreeFragment"
+        android:label="fragment_builders_three"
+        tools:layout="@layout/fragment_builders_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/buildersFourFragment"
+        android:name="com.example.coroutinesexample.examples.builders.BuilderFourFragment"
+        android:label="fragment_fragment_builders_four"
+        tools:layout="@layout/fragment_builders_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/suspendsOneFragment"
+        android:name="com.example.coroutinesexample.examples.suspends.SuspendOneFragment"
+        android:label="fragment_fragment_suspends_one"
+        tools:layout="@layout/fragment_suspends_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesOneFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineOneFragment"
+        android:label="fragment_coroutines_one"
+        tools:layout="@layout/fragment_coroutines_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesTwoFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineTwoFragment"
+        android:label="fragment_coroutines_two"
+        tools:layout="@layout/fragment_coroutines_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesThreeFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineThreeFragment"
+        android:label="fragment_coroutines_three"
+        tools:layout="@layout/fragment_coroutines_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesFourFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineFourFragment"
+        android:label="fragment_coroutines_four"
+        tools:layout="@layout/fragment_coroutines_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesFiveFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineFiveFragment"
+        android:label="fragment_coroutines_five"
+        tools:layout="@layout/fragment_coroutines_five" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesSixFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineSixFragment"
+        android:label="fragment_coroutines_six"
+        tools:layout="@layout/fragment_coroutines_six" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesSevenFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineSevenFragment"
+        android:label="fragment_coroutines_seven"
+        tools:layout="@layout/fragment_coroutines_seven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesEightFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineEightFragment"
+        android:label="fragment_coroutines_eight"
+        tools:layout="@layout/fragment_coroutines_eight" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesNineFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineNineFragment"
+        android:label="fragment_coroutines_nine"
+        tools:layout="@layout/fragment_coroutines_nine" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesTenFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineTenFragment"
+        android:label="fragment_coroutines_ten"
+        tools:layout="@layout/fragment_coroutines_ten" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesElevenFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineElevenFragment"
+        android:label="fragment_coroutines_eleven"
+        tools:layout="@layout/fragment_coroutines_eleven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesTwelveFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineTwelveFragment"
+        android:label="fragment_coroutines_twelve"
+        tools:layout="@layout/fragment_coroutines_twelve" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/coroutinesThirteenFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineThirteenFragment"
+        android:label="fragment_coroutines_thirteen"
+        tools:layout="@layout/fragment_coroutines_thirteen" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopesOneFragment"
+        android:name="com.example.coroutinesexample.examples.scopes.ScopeOneFragment"
+        android:label="fragment_scopes_one"
+        tools:layout="@layout/fragment_scopes_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopesTwoFragment"
+        android:name="com.example.coroutinesexample.examples.scopes.ScopeTwoFragment"
+        android:label="fragment_scopes_two"
+        tools:layout="@layout/fragment_scopes_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopesThreeFragment"
+        android:name="com.example.coroutinesexample.examples.scopes.ScopeThreeFragment"
+        android:label="fragment_scopes_three"
+        tools:layout="@layout/fragment_scopes_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopesFourFragment"
+        android:name="com.example.coroutinesexample.examples.scopes.ScopeFourFragment"
+        android:label="fragment_scopes_four"
+        tools:layout="@layout/fragment_scopes_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsOneFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionOneFragment"
+        android:label="fragment_scopefunctions_one"
+        tools:layout="@layout/fragment_scopefunctions_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsTwoFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionTwoFragment"
+        android:label="fragment_scopefunctions_two"
+        tools:layout="@layout/fragment_scopefunctions_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsThreeFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionThreeFragment"
+        android:label="fragment_scopefunctions_three"
+        tools:layout="@layout/fragment_scopefunctions_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsFourFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionFourFragment"
+        android:label="fragment_scopefunctions_four"
+        tools:layout="@layout/fragment_scopefunctions_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsFiveFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionFiveFragment"
+        android:label="fragment_scopefunctions_five"
+        tools:layout="@layout/fragment_scopefunctions_five" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsSixFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionSixFragment"
+        android:label="fragment_scopefunctions_six"
+        tools:layout="@layout/fragment_scopefunctions_six" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsSevenFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionSevenFragment"
+        android:label="fragment_scopefunctions_seven"
+        tools:layout="@layout/fragment_scopefunctions_seven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/scopeFunctionsEightFragment"
+        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineEightFragment"
+        android:label="fragment_scopefunctions_eight"
+        tools:layout="@layout/fragment_scopefunctions_eight" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsOneFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelOneFragment"
+        android:label="fragment_channels_one"
+        tools:layout="@layout/fragment_channels_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsTwoFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelTwoFragment"
+        android:label="fragment_channels_two"
+        tools:layout="@layout/fragment_channels_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsThreeFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelThreeFragment"
+        android:label="fragment_channels_three"
+        tools:layout="@layout/fragment_channels_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsFourFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelFourFragment"
+        android:label="fragment_channels_four"
+        tools:layout="@layout/fragment_channels_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsFiveFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelFiveFragment"
+        android:label="fragment_channels_five"
+        tools:layout="@layout/fragment_channels_five" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsSixFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelSixFragment"
+        android:label="fragment_channels_six"
+        tools:layout="@layout/fragment_channels_six" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsSevenFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelSevenFragment"
+        android:label="fragment_channels_seven"
+        tools:layout="@layout/fragment_channels_seven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsEightFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelEightFragment"
+        android:label="fragment_channels_eight"
+        tools:layout="@layout/fragment_channels_eight" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsNineFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelNineFragment"
+        android:label="fragment_channels_nine"
+        tools:layout="@layout/fragment_channels_nine" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsTenFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelTenFragment"
+        android:label="fragment_channels_ten"
+        tools:layout="@layout/fragment_channels_ten" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsElevenFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelElevenFragment"
+        android:label="fragment_channels_eleven"
+        tools:layout="@layout/fragment_channels_eleven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsTwelveFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelTwelveFragment"
+        android:label="fragment_channels_twelve"
+        tools:layout="@layout/fragment_channels_twelve" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/channelsThirteenFragment"
+        android:name="com.example.coroutinesexample.examples.channels.ChannelThirteenFragment"
+        android:label="fragment_channels_thirteen"
+        tools:layout="@layout/fragment_channels_thirteen" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsOneFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowOneFragment"
+        android:label="fragment_flows_one"
+        tools:layout="@layout/fragment_flows_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwoFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwoFragment"
+        android:label="fragment_flows_two"
+        tools:layout="@layout/fragment_flows_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsThreeFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowThreeFragment"
+        android:label="fragment_flows_three"
+        tools:layout="@layout/fragment_flows_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsFourFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowFourFragment"
+        android:label="fragment_flows_four"
+        tools:layout="@layout/fragment_flows_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsFiveFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowFiveFragment"
+        android:label="fragment_flows_five"
+        tools:layout="@layout/fragment_flows_five" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsSixFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowSixFragment"
+        android:label="fragment_flows_six"
+        tools:layout="@layout/fragment_flows_six" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsSevenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowSevenFragment"
+        android:label="fragment_flows_seven"
+        tools:layout="@layout/fragment_flows_seven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsEightFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowEightFragment"
+        android:label="fragment_flows_eight"
+        tools:layout="@layout/fragment_flows_eight" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsNineFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowNineFragment"
+        android:label="fragment_flows_nine"
+        tools:layout="@layout/fragment_flows_nine" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTenFragment"
+        android:label="fragment_flows_ten"
+        tools:layout="@layout/fragment_flows_ten" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsElevenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowElevenFragment"
+        android:label="fragment_flows_eleven"
+        tools:layout="@layout/fragment_flows_eleven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwelveFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwelveFragment"
+        android:label="fragment_flows_twelve"
+        tools:layout="@layout/fragment_flows_twelve" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsThirteenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowThirteenFragment"
+        android:label="fragment_flows_thirteen"
+        tools:layout="@layout/fragment_flows_thirteen" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsFourteenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowFourteenFragment"
+        android:label="fragment_flows_one"
+        tools:layout="@layout/fragment_flows_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsFifteenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowFifteenFragment"
+        android:label="fragment_flows_two"
+        tools:layout="@layout/fragment_flows_two" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsSixteenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowSixteenFragment"
+        android:label="fragment_flows_three"
+        tools:layout="@layout/fragment_flows_three" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsSeventeenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowSeventeenFragment"
+        android:label="fragment_flows_four"
+        tools:layout="@layout/fragment_flows_four" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsEighteenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowEighteenFragment"
+        android:label="fragment_flows_five"
+        tools:layout="@layout/fragment_flows_five" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsNineteenFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowNineteenFragment"
+        android:label="fragment_flows_six"
+        tools:layout="@layout/fragment_flows_six" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwentyFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwentyFragment"
+        android:label="fragment_flows_seven"
+        tools:layout="@layout/fragment_flows_seven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwentyOneFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwentyOneFragment"
+        android:label="fragment_flows_eight"
+        tools:layout="@layout/fragment_flows_eight" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwentyTwoFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwentyTwoFragment"
+        android:label="fragment_flows_nine"
+        tools:layout="@layout/fragment_flows_nine" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwentyThreeFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwentyThreeFragment"
+        android:label="fragment_flows_ten"
+        tools:layout="@layout/fragment_flows_ten" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwentyFourFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwentyFourFragment"
+        android:label="fragment_flows_eleven"
+        tools:layout="@layout/fragment_flows_eleven" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwentyFiveFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwentyFiveFragment"
+        android:label="fragment_channels_twelve"
+        tools:layout="@layout/fragment_channels_twelve" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowsTwentySixFragment"
+        android:name="com.example.coroutinesexample.examples.flows.FlowTwentySixFragment"
+        android:label="fragment_flows_thirteen"
+        tools:layout="@layout/fragment_flows_thirteen" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/operatorsOneFragment"
+        android:name="com.example.coroutinesexample.examples.operators.OperatorOneFragment"
+        android:label="fragment_operators_one"
+        tools:layout="@layout/fragment_operators_one" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/operatorsTwoFragment"
+        android:name="com.example.coroutinesexample.examples.oparetors.OperatorTwoFragment"
+        android:label="fragment_operators_two"
+        tools:layout="@layout/fragment_operators_two" >
+    </fragment>
 </navigation>
