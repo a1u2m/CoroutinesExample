@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.coroutinesexample.R
+import com.example.coroutinesexample.databinding.FragmentFlowTwelveBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
 
 class FlowTwelveFragment : BaseExampleFragment() {

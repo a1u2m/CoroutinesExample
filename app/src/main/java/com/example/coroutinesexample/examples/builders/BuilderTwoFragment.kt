@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.coroutinesexample.R
+import com.example.coroutinesexample.databinding.FragmentBuilderTwoBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
 
 class BuilderTwoFragment : BaseExampleFragment() {
@@ -19,7 +20,7 @@ class BuilderTwoFragment : BaseExampleFragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentErrorBuilderBinding.inflate(inflater, container, false)
+        binding = FragmentBuilderTwoBinding.inflate(inflater, container, false)
         return binding.root
     }
 }
