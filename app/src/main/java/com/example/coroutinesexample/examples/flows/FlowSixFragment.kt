@@ -11,7 +11,7 @@ import com.example.coroutinesexample.examples.BaseExampleFragment
 class FlowSixFragment : BaseExampleFragment() {
 
     override val description: String by lazy {
-        resources.getString(R.string.channelsCase6)
+        resources.getString(R.string.flowCase6)
     }
     lateinit var binding: FragmentFlowSixBinding
 

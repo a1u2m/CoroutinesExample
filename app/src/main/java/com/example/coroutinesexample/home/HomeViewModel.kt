@@ -63,12 +63,37 @@ class HomeViewModel : ViewModel() {
         temp.add(HomeItemModel.HomeTitleItem(R.string.titleScopeFunctions))
         temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase1, R.id.toScopeFunctionsOne))
         temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase2, R.id.toScopeFunctionsTwo))
-        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase3, R.id.toScopeFunctionsThree))
-        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase4, R.id.toScopeFunctionsFour))
-        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase5, R.id.toScopeFunctionsFive))
+        temp.add(
+            HomeItemModel.HomeItemItem(
+                R.string.scopeFunctionsCase3,
+                R.id.toScopeFunctionsThree
+            )
+        )
+        temp.add(
+            HomeItemModel.HomeItemItem(
+                R.string.scopeFunctionsCase4,
+                R.id.toScopeFunctionsFour
+            )
+        )
+        temp.add(
+            HomeItemModel.HomeItemItem(
+                R.string.scopeFunctionsCase5,
+                R.id.toScopeFunctionsFive
+            )
+        )
         temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase6, R.id.toScopeFunctionsSix))
-        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase7, R.id.toScopeFunctionsSeven))
-        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase8, R.id.toScopeFunctionsEight))
+        temp.add(
+            HomeItemModel.HomeItemItem(
+                R.string.scopeFunctionsCase7,
+                R.id.toScopeFunctionsSeven
+            )
+        )
+        temp.add(
+            HomeItemModel.HomeItemItem(
+                R.string.scopeFunctionsCase8,
+                R.id.toScopeFunctionsEight
+            )
+        )
 
         temp.add(HomeItemModel.HomeTitleItem(R.string.titleChannels))
         temp.add(HomeItemModel.HomeItemItem(R.string.channelsCase1, R.id.toChannelsOne))
