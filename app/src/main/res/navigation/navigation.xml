@@ -516,496 +516,496 @@
         android:id="@+id/buildersOneFragment"
         android:name="com.example.coroutinesexample.examples.builders.BuilderOneFragment"
         android:label="fragment_builders_one"
-        tools:layout="@layout/fragment_builders_one" >
+        tools:layout="@layout/fragment_builder_one" >
     </fragment>
 
     <fragment
         android:id="@+id/buildersTwoFragment"
         android:name="com.example.coroutinesexample.examples.builders.BuilderTwoFragment"
         android:label="fragment_builders_two"
-        tools:layout="@layout/fragment_builders_two" >
+        tools:layout="@layout/fragment_builder_two" >
     </fragment>
 
     <fragment
         android:id="@+id/buildersThreeFragment"
         android:name="com.example.coroutinesexample.examples.builders.BuilderThreeFragment"
         android:label="fragment_builders_three"
-        tools:layout="@layout/fragment_builders_three" >
+        tools:layout="@layout/fragment_builder_three" >
     </fragment>
 
     <fragment
         android:id="@+id/buildersFourFragment"
         android:name="com.example.coroutinesexample.examples.builders.BuilderFourFragment"
         android:label="fragment_fragment_builders_four"
-        tools:layout="@layout/fragment_builders_four" >
+        tools:layout="@layout/fragment_builder_four" >
     </fragment>
 
     <fragment
         android:id="@+id/suspendsOneFragment"
         android:name="com.example.coroutinesexample.examples.suspends.SuspendOneFragment"
         android:label="fragment_fragment_suspends_one"
-        tools:layout="@layout/fragment_suspends_one" >
+        tools:layout="@layout/fragment_suspend_one" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesOneFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineOneFragment"
         android:label="fragment_coroutines_one"
-        tools:layout="@layout/fragment_coroutines_one" >
+        tools:layout="@layout/fragment_coroutine_one" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesTwoFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineTwoFragment"
         android:label="fragment_coroutines_two"
-        tools:layout="@layout/fragment_coroutines_two" >
+        tools:layout="@layout/fragment_coroutine_two" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesThreeFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineThreeFragment"
         android:label="fragment_coroutines_three"
-        tools:layout="@layout/fragment_coroutines_three" >
+        tools:layout="@layout/fragment_coroutine_three" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesFourFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineFourFragment"
         android:label="fragment_coroutines_four"
-        tools:layout="@layout/fragment_coroutines_four" >
+        tools:layout="@layout/fragment_coroutine_four" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesFiveFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineFiveFragment"
         android:label="fragment_coroutines_five"
-        tools:layout="@layout/fragment_coroutines_five" >
+        tools:layout="@layout/fragment_coroutine_five" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesSixFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineSixFragment"
         android:label="fragment_coroutines_six"
-        tools:layout="@layout/fragment_coroutines_six" >
+        tools:layout="@layout/fragment_coroutine_six" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesSevenFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineSevenFragment"
         android:label="fragment_coroutines_seven"
-        tools:layout="@layout/fragment_coroutines_seven" >
+        tools:layout="@layout/fragment_coroutine_seven" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesEightFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineEightFragment"
         android:label="fragment_coroutines_eight"
-        tools:layout="@layout/fragment_coroutines_eight" >
+        tools:layout="@layout/fragment_coroutine_eight" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesNineFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineNineFragment"
         android:label="fragment_coroutines_nine"
-        tools:layout="@layout/fragment_coroutines_nine" >
+        tools:layout="@layout/fragment_coroutine_nine" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesTenFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineTenFragment"
         android:label="fragment_coroutines_ten"
-        tools:layout="@layout/fragment_coroutines_ten" >
+        tools:layout="@layout/fragment_coroutine_ten" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesElevenFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineElevenFragment"
         android:label="fragment_coroutines_eleven"
-        tools:layout="@layout/fragment_coroutines_eleven" >
+        tools:layout="@layout/fragment_coroutine_eleven" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesTwelveFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineTwelveFragment"
         android:label="fragment_coroutines_twelve"
-        tools:layout="@layout/fragment_coroutines_twelve" >
+        tools:layout="@layout/fragment_coroutine_twelve" >
     </fragment>
 
     <fragment
         android:id="@+id/coroutinesThirteenFragment"
         android:name="com.example.coroutinesexample.examples.coroutines.CoroutineThirteenFragment"
         android:label="fragment_coroutines_thirteen"
-        tools:layout="@layout/fragment_coroutines_thirteen" >
+        tools:layout="@layout/fragment_coroutine_thirteen" >
     </fragment>
 
     <fragment
         android:id="@+id/scopesOneFragment"
         android:name="com.example.coroutinesexample.examples.scopes.ScopeOneFragment"
         android:label="fragment_scopes_one"
-        tools:layout="@layout/fragment_scopes_one" >
+        tools:layout="@layout/fragment_scope_one" >
     </fragment>
 
     <fragment
         android:id="@+id/scopesTwoFragment"
         android:name="com.example.coroutinesexample.examples.scopes.ScopeTwoFragment"
         android:label="fragment_scopes_two"
-        tools:layout="@layout/fragment_scopes_two" >
+        tools:layout="@layout/fragment_scope_two" >
     </fragment>
 
     <fragment
         android:id="@+id/scopesThreeFragment"
         android:name="com.example.coroutinesexample.examples.scopes.ScopeThreeFragment"
         android:label="fragment_scopes_three"
-        tools:layout="@layout/fragment_scopes_three" >
+        tools:layout="@layout/fragment_scope_three" >
     </fragment>
 
     <fragment
         android:id="@+id/scopesFourFragment"
         android:name="com.example.coroutinesexample.examples.scopes.ScopeFourFragment"
         android:label="fragment_scopes_four"
-        tools:layout="@layout/fragment_scopes_four" >
+        tools:layout="@layout/fragment_scope_four" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsOneFragment"
         android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionOneFragment"
         android:label="fragment_scopefunctions_one"
-        tools:layout="@layout/fragment_scopefunctions_one" >
+        tools:layout="@layout/fragment_scopefunction_one" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsTwoFragment"
         android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionTwoFragment"
         android:label="fragment_scopefunctions_two"
-        tools:layout="@layout/fragment_scopefunctions_two" >
+        tools:layout="@layout/fragment_scopefunction_two" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsThreeFragment"
         android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionThreeFragment"
         android:label="fragment_scopefunctions_three"
-        tools:layout="@layout/fragment_scopefunctions_three" >
+        tools:layout="@layout/fragment_scopefunction_three" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsFourFragment"
         android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionFourFragment"
         android:label="fragment_scopefunctions_four"
-        tools:layout="@layout/fragment_scopefunctions_four" >
+        tools:layout="@layout/fragment_scopefunction_four" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsFiveFragment"
         android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionFiveFragment"
         android:label="fragment_scopefunctions_five"
-        tools:layout="@layout/fragment_scopefunctions_five" >
+        tools:layout="@layout/fragment_scopefunction_five" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsSixFragment"
         android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionSixFragment"
         android:label="fragment_scopefunctions_six"
-        tools:layout="@layout/fragment_scopefunctions_six" >
+        tools:layout="@layout/fragment_scopefunction_six" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsSevenFragment"
         android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionSevenFragment"
         android:label="fragment_scopefunctions_seven"
-        tools:layout="@layout/fragment_scopefunctions_seven" >
+        tools:layout="@layout/fragment_scopefunction_seven" >
     </fragment>
 
     <fragment
         android:id="@+id/scopeFunctionsEightFragment"
-        android:name="com.example.coroutinesexample.examples.coroutines.CoroutineEightFragment"
+        android:name="com.example.coroutinesexample.examples.scopefunctions.ScopeFunctionEightFragment"
         android:label="fragment_scopefunctions_eight"
-        tools:layout="@layout/fragment_scopefunctions_eight" >
+        tools:layout="@layout/fragment_scopefunction_eight" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsOneFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelOneFragment"
         android:label="fragment_channels_one"
-        tools:layout="@layout/fragment_channels_one" >
+        tools:layout="@layout/fragment_channel_one" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsTwoFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelTwoFragment"
         android:label="fragment_channels_two"
-        tools:layout="@layout/fragment_channels_two" >
+        tools:layout="@layout/fragment_channel_two" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsThreeFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelThreeFragment"
         android:label="fragment_channels_three"
-        tools:layout="@layout/fragment_channels_three" >
+        tools:layout="@layout/fragment_channel_three" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsFourFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelFourFragment"
         android:label="fragment_channels_four"
-        tools:layout="@layout/fragment_channels_four" >
+        tools:layout="@layout/fragment_channel_four" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsFiveFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelFiveFragment"
         android:label="fragment_channels_five"
-        tools:layout="@layout/fragment_channels_five" >
+        tools:layout="@layout/fragment_channel_five" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsSixFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelSixFragment"
         android:label="fragment_channels_six"
-        tools:layout="@layout/fragment_channels_six" >
+        tools:layout="@layout/fragment_channel_six" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsSevenFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelSevenFragment"
         android:label="fragment_channels_seven"
-        tools:layout="@layout/fragment_channels_seven" >
+        tools:layout="@layout/fragment_channel_seven" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsEightFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelEightFragment"
         android:label="fragment_channels_eight"
-        tools:layout="@layout/fragment_channels_eight" >
+        tools:layout="@layout/fragment_channel_eight" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsNineFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelNineFragment"
         android:label="fragment_channels_nine"
-        tools:layout="@layout/fragment_channels_nine" >
+        tools:layout="@layout/fragment_channel_nine" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsTenFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelTenFragment"
         android:label="fragment_channels_ten"
-        tools:layout="@layout/fragment_channels_ten" >
+        tools:layout="@layout/fragment_channel_ten" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsElevenFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelElevenFragment"
         android:label="fragment_channels_eleven"
-        tools:layout="@layout/fragment_channels_eleven" >
+        tools:layout="@layout/fragment_channel_eleven" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsTwelveFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelTwelveFragment"
         android:label="fragment_channels_twelve"
-        tools:layout="@layout/fragment_channels_twelve" >
+        tools:layout="@layout/fragment_channel_twelve" >
     </fragment>
 
     <fragment
         android:id="@+id/channelsThirteenFragment"
         android:name="com.example.coroutinesexample.examples.channels.ChannelThirteenFragment"
         android:label="fragment_channels_thirteen"
-        tools:layout="@layout/fragment_channels_thirteen" >
+        tools:layout="@layout/fragment_channel_thirteen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsOneFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowOneFragment"
         android:label="fragment_flows_one"
-        tools:layout="@layout/fragment_flows_one" >
+        tools:layout="@layout/fragment_flow_one" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwoFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwoFragment"
         android:label="fragment_flows_two"
-        tools:layout="@layout/fragment_flows_two" >
+        tools:layout="@layout/fragment_flow_two" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsThreeFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowThreeFragment"
         android:label="fragment_flows_three"
-        tools:layout="@layout/fragment_flows_three" >
+        tools:layout="@layout/fragment_flow_three" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsFourFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowFourFragment"
         android:label="fragment_flows_four"
-        tools:layout="@layout/fragment_flows_four" >
+        tools:layout="@layout/fragment_flow_four" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsFiveFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowFiveFragment"
         android:label="fragment_flows_five"
-        tools:layout="@layout/fragment_flows_five" >
+        tools:layout="@layout/fragment_flow_five" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsSixFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowSixFragment"
         android:label="fragment_flows_six"
-        tools:layout="@layout/fragment_flows_six" >
+        tools:layout="@layout/fragment_flow_six" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsSevenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowSevenFragment"
         android:label="fragment_flows_seven"
-        tools:layout="@layout/fragment_flows_seven" >
+        tools:layout="@layout/fragment_flow_seven" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsEightFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowEightFragment"
         android:label="fragment_flows_eight"
-        tools:layout="@layout/fragment_flows_eight" >
+        tools:layout="@layout/fragment_flow_eight" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsNineFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowNineFragment"
         android:label="fragment_flows_nine"
-        tools:layout="@layout/fragment_flows_nine" >
+        tools:layout="@layout/fragment_flow_nine" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTenFragment"
         android:label="fragment_flows_ten"
-        tools:layout="@layout/fragment_flows_ten" >
+        tools:layout="@layout/fragment_flow_ten" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsElevenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowElevenFragment"
         android:label="fragment_flows_eleven"
-        tools:layout="@layout/fragment_flows_eleven" >
+        tools:layout="@layout/fragment_flow_eleven" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwelveFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwelveFragment"
         android:label="fragment_flows_twelve"
-        tools:layout="@layout/fragment_flows_twelve" >
+        tools:layout="@layout/fragment_flow_twelve" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsThirteenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowThirteenFragment"
         android:label="fragment_flows_thirteen"
-        tools:layout="@layout/fragment_flows_thirteen" >
+        tools:layout="@layout/fragment_flow_thirteen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsFourteenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowFourteenFragment"
-        android:label="fragment_flows_one"
-        tools:layout="@layout/fragment_flows_one" >
+        android:label="fragment_flows_fourteen"
+        tools:layout="@layout/fragment_flow_fourteen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsFifteenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowFifteenFragment"
-        android:label="fragment_flows_two"
-        tools:layout="@layout/fragment_flows_two" >
+        android:label="fragment_flows_fifteen"
+        tools:layout="@layout/fragment_flow_fifteen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsSixteenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowSixteenFragment"
-        android:label="fragment_flows_three"
-        tools:layout="@layout/fragment_flows_three" >
+        android:label="fragment_flows_sixteen"
+        tools:layout="@layout/fragment_flow_sixteen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsSeventeenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowSeventeenFragment"
-        android:label="fragment_flows_four"
-        tools:layout="@layout/fragment_flows_four" >
+        android:label="fragment_flows_seventeen"
+        tools:layout="@layout/fragment_flow_seventeen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsEighteenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowEighteenFragment"
-        android:label="fragment_flows_five"
-        tools:layout="@layout/fragment_flows_five" >
+        android:label="fragment_flows_eighteen"
+        tools:layout="@layout/fragment_flow_eighteen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsNineteenFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowNineteenFragment"
-        android:label="fragment_flows_six"
-        tools:layout="@layout/fragment_flows_six" >
+        android:label="fragment_flows_nineteen"
+        tools:layout="@layout/fragment_flow_nineteen" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwentyFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwentyFragment"
-        android:label="fragment_flows_seven"
-        tools:layout="@layout/fragment_flows_seven" >
+        android:label="fragment_flows_twenty"
+        tools:layout="@layout/fragment_flow_twenty" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwentyOneFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwentyOneFragment"
-        android:label="fragment_flows_eight"
-        tools:layout="@layout/fragment_flows_eight" >
+        android:label="fragment_flows_twenty_one"
+        tools:layout="@layout/fragment_flow_twenty_one" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwentyTwoFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwentyTwoFragment"
-        android:label="fragment_flows_nine"
-        tools:layout="@layout/fragment_flows_nine" >
+        android:label="fragment_flows_twenty_two"
+        tools:layout="@layout/fragment_flow_twenty_two" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwentyThreeFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwentyThreeFragment"
-        android:label="fragment_flows_ten"
-        tools:layout="@layout/fragment_flows_ten" >
+        android:label="fragment_flows_twenty_three"
+        tools:layout="@layout/fragment_flow_twenty_three" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwentyFourFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwentyFourFragment"
-        android:label="fragment_flows_eleven"
-        tools:layout="@layout/fragment_flows_eleven" >
+        android:label="fragment_flows_twenty_four"
+        tools:layout="@layout/fragment_flow_twenty_four" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwentyFiveFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwentyFiveFragment"
-        android:label="fragment_channels_twelve"
-        tools:layout="@layout/fragment_channels_twelve" >
+        android:label="fragment_flows_twenty_five"
+        tools:layout="@layout/fragment_flow_twenty_five" >
     </fragment>
 
     <fragment
         android:id="@+id/flowsTwentySixFragment"
         android:name="com.example.coroutinesexample.examples.flows.FlowTwentySixFragment"
-        android:label="fragment_flows_thirteen"
-        tools:layout="@layout/fragment_flows_thirteen" >
+        android:label="fragment_flows_twenty_six"
+        tools:layout="@layout/fragment_flow_twenty_six" >
     </fragment>
 
     <fragment
         android:id="@+id/operatorsOneFragment"
         android:name="com.example.coroutinesexample.examples.operators.OperatorOneFragment"
         android:label="fragment_operators_one"
-        tools:layout="@layout/fragment_operators_one" >
+        tools:layout="@layout/fragment_operator_one" >
     </fragment>
 
     <fragment
         android:id="@+id/operatorsTwoFragment"
-        android:name="com.example.coroutinesexample.examples.oparetors.OperatorTwoFragment"
+        android:name="com.example.coroutinesexample.examples.operators.OperatorTwoFragment"
         android:label="fragment_operators_two"
-        tools:layout="@layout/fragment_operators_two" >
+        tools:layout="@layout/fragment_operator_two" >
     </fragment>
 </navigation>
