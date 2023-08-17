@@ -100,4 +100,13 @@
     <string name="titleOperators">Операторы</string>
     <string name="operatorsCase1">Используем оператор select</string>
     <string name="operatorsCase2">Используем оператор actor</string>
+    <string name="dispatchersCase1WithoutDispatcherDesc">Скоуп создан без указания диспетчера, используется диспетчер по умолчанию (DEFAULT), видим что используются треды DefaultDispatcher</string>
+    <string name="dispatchersCase1WithDispatcherDesc">Скоуп создан с указанием main диспетчера, видим что используется main тред</string>
+    <string name="dispatchersCase1Action1">Скоуп создан</string>
+    <string name="dispatchersCase1Action2">Запущена корутина в скоупе</string>
+    <string name="dispatchersCase1Action3">Содержимое контекста скоупа: %1$s</string>
+    <string name="dispatchersCase1Action4">Текущий тред: %1$s</string>
+    <string name="dispatchersCase1Title">Если при создании корутины или скоупа диспетчер не указан, то используется дефолтный.</string>
+    <string name="dispatchersCase1ButtonWithout">Создать скоуп без указания диспетчера</string>
+    <string name="dispatchersCase1ButtonWith">Создать скоуп с диспетчером Main</string>
 </resources>

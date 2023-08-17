@@ -7,6 +7,10 @@ import android.view.ViewGroup
 import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentDispatcherOneBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 
 class DispatcherOneFragment : BaseExampleFragment() {
 
@@ -22,5 +26,48 @@ class DispatcherOneFragment : BaseExampleFragment() {
     ): View {
         binding = FragmentDispatcherOneBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.buttonWithoutDispatcher.setOnClickListener {
+            testWithoutDispatcher()
+        }
+        binding.buttonWithDispatcher.setOnClickListener {
+            testWithDispatcher()
+        }
+    }
+
+    private fun testWithoutDispatcher() {
+        val scope = CoroutineScope(Job())
+        scope.launch {
+            logActions(scope)
+            loggerVM.addLog(resources.getString(R.string.dispatchersCase1WithoutDispatcherDesc))
+        }
+    }
+
+    private fun testWithDispatcher() {
+        val scope = CoroutineScope(Dispatchers.Main + Job())
+        scope.launch {
+            logActions(scope)
+            loggerVM.addLog(resources.getString(R.string.dispatchersCase1WithDispatcherDesc))
+        }
+    }
+
+    private suspend fun logActions(scope: CoroutineScope) {
+        loggerVM.addLog(resources.getString(R.string.dispatchersCase1Action1))
+        loggerVM.addLog(resources.getString(R.string.dispatchersCase1Action2))
+        loggerVM.addLog(
+            resources.getString(
+                R.string.dispatchersCase1Action3,
+                scope.coroutineContext
+            )
+        )
+        loggerVM.addLog(
+            resources.getString(
+                R.string.dispatchersCase1Action4,
+                Thread.currentThread().name
+            )
+        )
     }
 }
