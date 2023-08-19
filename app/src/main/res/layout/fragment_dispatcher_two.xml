@@ -7,14 +7,22 @@
     >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        style="@style/CaseTitle"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="2"
+        android:text="@string/dispatchersCase2Desc"
         />
 
-
+    <Button
+        android:id="@+id/button"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/margin_x2"
+        android:text="@string/dispatchersCase2Button"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,12 +1,17 @@
 package com.example.coroutinesexample.examples.dispatchers
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentDispatcherThreeBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import java.util.concurrent.TimeUnit
 
 class DispatcherThreeFragment : BaseExampleFragment() {
 
@@ -23,4 +28,6 @@ class DispatcherThreeFragment : BaseExampleFragment() {
         binding = FragmentDispatcherThreeBinding.inflate(inflater, container, false)
         return binding.root
     }
+
+
 }

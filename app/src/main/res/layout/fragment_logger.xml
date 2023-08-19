@@ -24,6 +24,7 @@
 
     <Button
         android:id="@+id/stopAutoScroll"
+        style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -35,6 +36,7 @@
 
     <Button
         android:id="@+id/clearButton"
+        style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"

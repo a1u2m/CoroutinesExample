@@ -109,4 +109,11 @@
     <string name="dispatchersCase1Title">Если при создании корутины или скоупа диспетчер не указан, то используется дефолтный.</string>
     <string name="dispatchersCase1ButtonWithout">Создать скоуп без указания диспетчера</string>
     <string name="dispatchersCase1ButtonWith">Создать скоуп с диспетчером Main</string>
+    <string name="dispatchersCase2Desc">Создаем одновременно 20 корутин с Default диспетчером. Потоков будет столько, сколько ядер на устройстве (считая виртуальные). Каждая корутина будет делать ⅓ от своей работы за 2 секунды, и выполнив всю работу на 100% завершаться. Так будет повторяться, пока не выполнят свою работу все 20 корутин.</string>
+    <string name="dispatchersCase2Button">Создать одновременно 20 корутин</string>
+    <string name="dispatchersCase2Action1">Корутина %1$d запущена в треде %2$s в %3$s</string>
+    <string name="dispatchersCase2Action2">Корутина %1$d сделала 1/3 работы в треде %2$s в %3$s</string>
+    <string name="dispatchersCase2Action3">Корутина %1$d сделала 2/3 работы в треде %2$s в %3$s</string>
+    <string name="dispatchersCase2Action4">Корутина %1$d завершена в треде %2$s в %3$s</string>
+    <string name="dispatchersCase2Action5">Видим, что одновременно работает ограниченное число корутин. Только после того, как поток освободится, он возьмет в работу следующую корутину.</string>
 </resources>
