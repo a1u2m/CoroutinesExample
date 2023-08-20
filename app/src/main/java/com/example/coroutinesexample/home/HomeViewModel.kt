@@ -14,12 +14,14 @@ class HomeViewModel : ViewModel() {
 
     init {
         val temp = mutableListOf<HomeItemModel>()
-        temp.add(HomeItemModel.HomeTitleItem(R.string.titleDispatchers))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersOne))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase2, R.id.toDispatchersTwo))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase3, R.id.toDispatchersThree))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase4, R.id.toDispatchersFour))
-        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase5, R.id.toDispatchersFive))
+        //закомменчиваю законченные блоки чтоб не мешались. потом верну
+
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleDispatchers))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersOne))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase2, R.id.toDispatchersTwo))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase3, R.id.toDispatchersThree))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase4, R.id.toDispatchersFour))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase5, R.id.toDispatchersFive))
 
         temp.add(HomeItemModel.HomeTitleItem(R.string.titleErrors))
         temp.add(HomeItemModel.HomeItemItem(R.string.errorsCase1, R.id.toErrorsOne))
@@ -36,8 +38,8 @@ class HomeViewModel : ViewModel() {
         temp.add(HomeItemModel.HomeItemItem(R.string.buildersCase3, R.id.toBuildersThree))
         temp.add(HomeItemModel.HomeItemItem(R.string.buildersCase4, R.id.toBuildersFour))
 
-        temp.add(HomeItemModel.HomeTitleItem(R.string.titleSuspend))
-        temp.add(HomeItemModel.HomeItemItem(R.string.suspendCase1, R.id.toSuspendOne))
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleSuspend))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.suspendCase1, R.id.toSuspendOne))
 
         temp.add(HomeItemModel.HomeTitleItem(R.string.titleCoroutines))
         temp.add(HomeItemModel.HomeItemItem(R.string.coroutinesCase1, R.id.toCoroutinesOne))
