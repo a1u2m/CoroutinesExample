@@ -122,4 +122,9 @@
     <string name="dispatchersCase3Action1">Корутина %1$d запущена в треде %2$s в %3$s</string>
     <string name="dispatchersCase3Action2">Корутина %1$d завершена в треде %2$s в %3$s</string>
     <string name="dispatchersCase3Action3">После нажатия кнопки активных задач становится 100, потому что мы одновременно создаем их 100. Но выполняется одновременно скорее всего только 64, поэтому после выполнения первой пачки счетчик меняется на 36. И последняя смена на 1 происходит из-за добавления этой текстовки, которая срабатывает по колбеку, когда у джоба заканчиваются активные задачи.</string>
+    <string name="dispatchersCase4Title">Создать 5 корутин, которые будут выполняться в созданном нами диспетчере, имеющим в распоряжении только один поток. Время работы одной корутины составляет 1 секунду.</string>
+    <string name="dispatchersCase4Button">Создать</string>
+    <string name="dispatchersCase4Action1">Корутина %1$d запущена в треде %2$s в %3$s</string>
+    <string name="dispatchersCase4Action2">Корутина %1$d завершена в треде %2$s в %3$s</string>
+    <string name="dispatchersCase4Action3">Видим, что одновременно работает только одна корутина.</string>
 </resources>
