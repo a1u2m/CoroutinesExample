@@ -127,4 +127,18 @@
     <string name="dispatchersCase4Action1">Корутина %1$d запущена в треде %2$s в %3$s</string>
     <string name="dispatchersCase4Action2">Корутина %1$d завершена в треде %2$s в %3$s</string>
     <string name="dispatchersCase4Action3">Видим, что одновременно работает только одна корутина.</string>
+    <string name="dispatchersCase5Title">Создаем корутину и смотрим как меняется поток выполнения при использовании диспетчера Unconfined.</string>
+    <string name="dispatchersCase5ButtonMain">Создать с диспетчером мейн</string>
+    <string name="dispatchersCase5ButtonUnconfined">Создать с диспетчером unconfined</string>
+    <string name="dispatchersCase5Action1">Запустили корутину с Unconfined диспетчером в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action2">Запускаем суспенд функцию из корутины в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action3">Корутина завершилась в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action4">Запустилась суспенд функция в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action5">Суспенд функция подождала секунду ДО смены потока в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action6">Суспенд функция подождала секунду ПОСЛЕ смены потока на IO в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action7">Суспенд функция завершилась в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action8">Продолжение работы корутины после выполнения суспенд функции в треде %1$s в %2$s</string>
+    <string name="dispatchersCase5Action9">Видим, что корутина стартует в main, так как билдер, запустивший и создавший корутину находится в нем. Далее во время выполнения суспенд функции уходим в другие потоки, а после возвращения остаемся в них же, уйдя из мейн в суспенд функции.</string>
+    <string name="dispatchersCase5Action10">Видим, что корутина стартует в main (явно указали диспетчер main). Далее во время выполнения суспенд функции уходим в IO поток, а после возвращаемся в main.</string>
+    <string name="dispatchersCase5Action11">Запустили корутину с Main диспетчером в треде %1$s в %2$s</string>
 </resources>
