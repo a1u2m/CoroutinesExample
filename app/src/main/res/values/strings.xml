@@ -23,7 +23,7 @@
     <string name="errorsCase7">Ошибка в suspend функции корутины. Try-catch</string>
     <string name="titleBuilders">Билдеры</string>
     <string name="buildersCase1">Билдер async. Получаем результат методом await</string>
-    <string name="buildersCase2">Билдер launch. Последовательно запускаем корутины</string>
+    <string name="buildersCase2">Билдер launch. Запуск дочерних корутин так, чтобы родительская не дожидалась их завершения и так, чтобы дожидалась.</string>
     <string name="buildersCase3">Билдер async. Параллельно запускаем корутины</string>
     <string name="buildersCase4">Билдер async. Ленивый старт методом await</string>
     <string name="titleSuspend">Suspend функции</string>
@@ -151,8 +151,18 @@
     <string name="buildersCase1Action1">Запущена родительская корутина билдером launch</string>
     <string name="buildersCase1Action2">Запущена дочерняя корутина билдером async</string>
     <string name="buildersCase1Action3">Дочерняя корутина завершена</string>
-    <string name="buildersCase1Action4">"Это возвращенный результат"</string>
+    <string name="buildersCase1Action4">Это возвращенный результат</string>
     <string name="buildersCase1Action5">Родительская корутина, ждем пока дочерняя вернет результат</string>
     <string name="buildersCase1Action6">Дочерняя корутина вернула: %1$s</string>
     <string name="buildersCase1Action7">Завершена родительская корутина</string>
+    <string name="buildersCase2Title">По кнопке А создается родительская корутина с двумя дочерними, родительская не дожидается выполнения дочерних. По кнопке Б условия те же, но родительская корутина дожидается завершения дочерних и только потом продолжается.</string>
+    <string name="buildersCase2ButtonA">Создать корутины под кейс А</string>
+    <string name="buildersCase2ButtonB">Создать корутины под кейс Б</string>
+    <string name="buildersCase2Action1">Стартовала родительская корутина</string>
+    <string name="buildersCase2Action2">Стартовала дочерняя корутина А</string>
+    <string name="buildersCase2Action3">Закончилась дочерняя корутина А</string>
+    <string name="buildersCase2Action4">Стартовала дочерняя корутина Б</string>
+    <string name="buildersCase2Action5">Закончилась дочерняя корутина Б</string>
+    <string name="buildersCase2Action6">Закончилась родительская корутина</string>
+    <string name="buildersCase2Action7">Родительская корутина, ждем дочерние</string>
 </resources>

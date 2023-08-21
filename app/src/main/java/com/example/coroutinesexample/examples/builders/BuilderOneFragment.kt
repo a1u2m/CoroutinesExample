@@ -19,7 +19,7 @@ class BuilderOneFragment : BaseExampleFragment() {
         resources.getString(R.string.buildersCase1)
     }
     lateinit var binding: FragmentBuilderOneBinding
-    val scope = CoroutineScope(Job())
+    private val scope = CoroutineScope(Job())
 
 
     override fun onCreateView(
