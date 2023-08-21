@@ -146,4 +146,13 @@
     <string name="suspendsCase1ButtonB">Поменять квадратик</string>
     <string name="suspendsCase1Action1">Суспенд функция стартанула в треде %1$s в %2$s</string>
     <string name="suspendsCase1Action2">Суспенд функция завершилась в треде %1$s в %2$s</string>
+    <string name="buildersCase1Title">Создаем корутину билдером async и получаем результат</string>
+    <string name="buildersCase1Button">Создать корутину билдером async</string>
+    <string name="buildersCase1Action1">Запущена родительская корутина билдером launch</string>
+    <string name="buildersCase1Action2">Запущена дочерняя корутина билдером async</string>
+    <string name="buildersCase1Action3">Дочерняя корутина завершена</string>
+    <string name="buildersCase1Action4">"Это возвращенный результат"</string>
+    <string name="buildersCase1Action5">Родительская корутина, ждем пока дочерняя вернет результат</string>
+    <string name="buildersCase1Action6">Дочерняя корутина вернула: %1$s</string>
+    <string name="buildersCase1Action7">Завершена родительская корутина</string>
 </resources>
