@@ -24,7 +24,7 @@
     <string name="titleBuilders">Билдеры</string>
     <string name="buildersCase1">Билдер async. Получаем результат методом await</string>
     <string name="buildersCase2">Билдер launch. Запуск дочерних корутин так, чтобы родительская не дожидалась их завершения и так, чтобы дожидалась.</string>
-    <string name="buildersCase3">Билдер async. Параллельно запускаем корутины</string>
+    <string name="buildersCase3">Билдер async. Запуск дочерних корутин с получением от них результата, параллельный запуск.</string>
     <string name="buildersCase4">Билдер async. Ленивый старт методом await</string>
     <string name="titleSuspend">Suspend функции</string>
     <string name="suspendCase1">Проверяем то что suspend функция не блокирует поток</string>
@@ -165,4 +165,24 @@
     <string name="buildersCase2Action5">Закончилась дочерняя корутина Б</string>
     <string name="buildersCase2Action6">Закончилась родительская корутина</string>
     <string name="buildersCase2Action7">Родительская корутина, ждем дочерние</string>
+    <string name="buildersCase3Title">В кейсе А запускаем дочерние корутины async билдером, дожидаемся родительской корутиной завершения работы. Во кейсе Б последовательно вызываем суспенд функции и дожидаемся результата в родительской корутине. В кейсе С параллельно вызываем суспенд функции и дожидаемся результата в родительской корутине.</string>
+    <string name="buildersCase3ButtonA">Кейс А</string>
+    <string name="buildersCase3ButtonB">Кейс Б</string>
+    <string name="buildersCase3ButtonC">Кейс C</string>
+    <string name="buildersCase3Action1">Стартовала родительская корутина</string>
+    <string name="buildersCase3Action2">Стартовала дочерняя корутина А</string>
+    <string name="buildersCase3Action3">Закончилась дочерняя корутина А</string>
+    <string name="buildersCase3Action4">Стартовала дочерняя корутина Б</string>
+    <string name="buildersCase3Action5">Закончилась дочерняя корутина Б</string>
+    <string name="buildersCase3Action6">Закончилась родительская корутина, результат двух дочерних: %1$s</string>
+    <string name="buildersCase3Action7">Результат первой корутины</string>
+    <string name="buildersCase3Action8">Результат второй корутины</string>
+    <string name="buildersCase3Action9">Родительская корутина, результат дочерних: %1$s</string>
+    <string name="buildersCase3Action10">Завершилась родительская корутина в %1$s</string>
+    <string name="buildersCase3Action11">Результат А</string>
+    <string name="buildersCase3Action12">Результат Б</string>
+    <string name="buildersCase3Action13">Суспенд функция А стартанула в %1$s</string>
+    <string name="buildersCase3Action14">Суспенд функция А завершилась в %1$s</string>
+    <string name="buildersCase3Action15">Суспенд функция Б стартанула в %1$s</string>
+    <string name="buildersCase3Action16">Суспенд функция Б завершилась в %1$s</string>
 </resources>
