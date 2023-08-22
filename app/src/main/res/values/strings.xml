@@ -74,7 +74,7 @@
     <string name="flowCase1">Создаем стандартный флоу, проверяем холодность</string>
     <string name="flowCase2">Создаем стандартный флоу через asFlow</string>
     <string name="flowCase3">Создаем стандартный флоу через flowOf</string>
-    <string name="flowCase4">Создаем стандартный флоу через ::suspend fun</string>
+    <string name="flowCase4">Создаем стандартный флоу через ::fun :Something</string>
     <string name="flowCase5">Создаем свой флоу под многие из intermediate операторов</string>
     <string name="flowCase6">Создаем свой оператор</string>
     <string name="flowCase7">Смотрим что делает метод emitAll</string>
@@ -204,4 +204,6 @@
     <string name="flowsCase1Action1">Подписка %1$d, элемент %2$d</string>
     <string name="flowsCase2Title">Создаем самый обычный флоу с помощью asFlow (принимает коллекцию), подписываем несколько подписчиков. Видим что под каждого подписчика создается свой флоу. Флоу 1 раз в секунду будет выдавать 1 элемент, всего элементов 10.</string>
     <string name="flowsCase3Title">Создаем самый обычный флоу с помощью flowOf (принимает варарг), подписываем несколько подписчиков. Видим что под каждого подписчика создается свой флоу. Флоу 1 раз в секунду будет выдавать 1 элемент, всего элементов 10.</string>
+    <string name="flowsCase4Title">Создаем самый обычный флоу с помощью функции, которая возвращает результат. Функция генерирует случайное число и возвращает его.</string>
+    <string name="flowsCase4Button">Подписаться</string>
 </resources>
