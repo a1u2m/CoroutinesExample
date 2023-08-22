@@ -25,7 +25,7 @@
     <string name="buildersCase1">Билдер async. Получаем результат методом await</string>
     <string name="buildersCase2">Билдер launch. Запуск дочерних корутин так, чтобы родительская не дожидалась их завершения и так, чтобы дожидалась.</string>
     <string name="buildersCase3">Билдер async. Запуск дочерних корутин с получением от них результата, параллельный запуск.</string>
-    <string name="buildersCase4">Билдер async. Ленивый старт методом await</string>
+    <string name="buildersCase4">Билдеры launch и async. Ленивый старт корутины</string>
     <string name="titleSuspend">Suspend функции</string>
     <string name="suspendCase1">Проверяем то что suspend функция не блокирует поток</string>
     <string name="titleCoroutines">Корутины</string>
@@ -185,4 +185,15 @@
     <string name="buildersCase3Action14">Суспенд функция А завершилась в %1$s</string>
     <string name="buildersCase3Action15">Суспенд функция Б стартанула в %1$s</string>
     <string name="buildersCase3Action16">Суспенд функция Б завершилась в %1$s</string>
+    <string name="buildersCase4Title">Корутины можно стартовать отложенно.</string>
+    <string name="buildersCase4DescLaunch">Билдер launch</string>
+    <string name="buildersCase4DescAsync">Билдер async</string>
+    <string name="buildersCase4ButtonCreate">Создать корутину</string>
+    <string name="buildersCase4ButtonStart">Стартануть корутину</string>
+    <string name="buildersCase4Action1">Создаем корутину</string>
+    <string name="buildersCase4Action2">Метод создания корутины завершен</string>
+    <string name="buildersCase4Action3">Корутина стартовала</string>
+    <string name="buildersCase4Action4">Корутина закончилась</string>
+    <string name="buildersCase4Action5">Завершили запуск созданной корутины</string>
+    <string name="buildersCase4Action6">Сейчас стартанем ранее созданную корутину</string>
 </resources>

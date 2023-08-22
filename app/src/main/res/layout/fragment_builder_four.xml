@@ -7,14 +7,75 @@
     >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        style="@style/CaseTitle"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="4"
+        android:text="@string/buildersCase4Title"
         />
 
+    <TextView
+        android:id="@+id/launchTitle"
+        style="@style/CaseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/buildersCase4DescLaunch"
+        />
 
+    <TextView
+        android:id="@+id/asyncTitle"
+        style="@style/CaseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/buildersCase4DescAsync"
+        />
+
+    <Button
+        android:id="@+id/buttonLaunchCreate"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/launchTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/margin_x2"
+        android:text="@string/buildersCase4ButtonCreate"
+        />
+
+    <Button
+        android:id="@+id/buttonLaunchStart"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/buttonLaunchCreate"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/margin_x2"
+        android:text="@string/buildersCase4ButtonStart"
+        />
+
+    <Button
+        android:id="@+id/buttonAsyncCreate"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/asyncTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/margin_x2"
+        android:text="@string/buildersCase4ButtonCreate"
+        />
+
+    <Button
+        android:id="@+id/buttonAsyncStart"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/buttonAsyncCreate"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/margin_x2"
+        android:text="@string/buildersCase4ButtonStart"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
