@@ -196,4 +196,10 @@
     <string name="buildersCase4Action4">Корутина закончилась</string>
     <string name="buildersCase4Action5">Завершили запуск созданной корутины</string>
     <string name="buildersCase4Action6">Сейчас стартанем ранее созданную корутину</string>
+    <string name="flowsCase1Title">Создаем самый обычный флоу, подписываем несколько подписчиков. Видим что под каждого подписчика создается свой флоу. Флоу 1 раз в секунду будет выдавать 1 элемент, всего элементов 10.</string>
+    <string name="flowsCase1ButtonCreate">Создать флоу</string>
+    <string name="flowsCase1ButtonFirstSub">Подписать первого подписчика</string>
+    <string name="flowsCase1ButtonSecondSub">Подписать второго подписчика</string>
+    <string name="flowsCase1ButtonThirdSub">Подписать третьего подписчика</string>
+    <string name="flowsCase1Action1">Подписка %1$d, элемент %2$d</string>
 </resources>
