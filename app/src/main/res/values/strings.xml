@@ -252,4 +252,7 @@
     <string name="flowsCase5Action21">Полученный элемент после drop: %1$d</string>
     <string name="flowsCase5Action22">С помощью sample получаем последний элемент в окне 3 секунд</string>
     <string name="flowsCase5Action23">Полученный элемент после sample: %1$d</string>
+    <string name="flowsCase6Title">Создаем свой оператор, который будет превращать любой текст в текст в верхнем регистре.</string>
+    <string name="flowsCase6Button">Создать флоу и подписаться</string>
+    <string name="flowsCase6Action1">"Выпущен элемент - %1$s</string>
 </resources>

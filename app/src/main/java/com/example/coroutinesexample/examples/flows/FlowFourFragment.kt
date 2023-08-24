@@ -38,7 +38,7 @@ class FlowFourFragment : BaseExampleFragment() {
         }
         binding.buttonFirstSub.setOnClickListener {
             lifecycleScope.launch {
-                subscribeFirstSub(1)
+                subscribeFirstSub()
             }
         }
     }
@@ -52,7 +52,7 @@ class FlowFourFragment : BaseExampleFragment() {
         return Random.nextInt()
     }
 
-    private suspend fun subscribeFirstSub(number: Int) {
+    private suspend fun subscribeFirstSub() {
         flow.collect { i ->
             doWork(i)
         }
