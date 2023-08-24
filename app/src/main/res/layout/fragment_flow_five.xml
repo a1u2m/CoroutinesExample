@@ -1,20 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="2"
-        />
+        >
 
+        <TextView
+            android:id="@+id/description"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5Title"
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/buttonMap"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/description"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonMap"
+            />
+
+        <TextView
+            android:id="@+id/tvMap"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonMap"
+            app:layout_constraintBottom_toBottomOf="@id/buttonMap"
+            app:layout_constraintStart_toEndOf="@id/buttonMap"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVMap"
+            />
+
+        <Button
+            android:id="@+id/buttonFilter"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvMap"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonFilter"
+            />
+
+        <TextView
+            android:id="@+id/tvFilter"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonFilter"
+            app:layout_constraintBottom_toBottomOf="@id/buttonFilter"
+            app:layout_constraintStart_toEndOf="@id/buttonFilter"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVFilter"
+            />
+
+        <Button
+            android:id="@+id/buttonTake"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvFilter"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonTake"
+            />
+
+        <TextView
+            android:id="@+id/tvTake"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonTake"
+            app:layout_constraintBottom_toBottomOf="@id/buttonTake"
+            app:layout_constraintStart_toEndOf="@id/buttonTake"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVTake"
+            />
+
+        <Button
+            android:id="@+id/buttonZip"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvTake"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonZip"
+            />
+
+        <TextView
+            android:id="@+id/tvZip"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonZip"
+            app:layout_constraintBottom_toBottomOf="@id/buttonZip"
+            app:layout_constraintStart_toEndOf="@id/buttonZip"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVZip"
+            />
+
+        <Button
+            android:id="@+id/buttonCombine"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvZip"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonCombine"
+            />
+
+        <TextView
+            android:id="@+id/tvCombine"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonCombine"
+            app:layout_constraintBottom_toBottomOf="@id/buttonCombine"
+            app:layout_constraintStart_toEndOf="@id/buttonCombine"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVCombine"
+            />
+
+        <Button
+            android:id="@+id/buttonWithIndex"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvCombine"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonWithIndex"
+            />
+
+        <TextView
+            android:id="@+id/tvWithIndex"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonWithIndex"
+            app:layout_constraintBottom_toBottomOf="@id/buttonWithIndex"
+            app:layout_constraintStart_toEndOf="@id/buttonWithIndex"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVWithIndex"
+            />
+
+        <Button
+            android:id="@+id/buttonScan"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvWithIndex"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonScan"
+            />
+
+        <TextView
+            android:id="@+id/tvScan"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonScan"
+            app:layout_constraintBottom_toBottomOf="@id/buttonScan"
+            app:layout_constraintStart_toEndOf="@id/buttonScan"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVScan"
+            />
+
+        <Button
+            android:id="@+id/buttonDebounce"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvScan"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonDebounce"
+            />
+
+        <TextView
+            android:id="@+id/tvDebounce"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonDebounce"
+            app:layout_constraintBottom_toBottomOf="@id/buttonDebounce"
+            app:layout_constraintStart_toEndOf="@id/buttonDebounce"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVDebounce"
+            />
+
+        <Button
+            android:id="@+id/buttonDistinctUntilChanged"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvDebounce"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonDistinctUntilChanged"
+            />
+
+        <TextView
+            android:id="@+id/tvDistinctUntilChanged"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonDistinctUntilChanged"
+            app:layout_constraintBottom_toBottomOf="@id/buttonDistinctUntilChanged"
+            app:layout_constraintStart_toEndOf="@id/buttonDistinctUntilChanged"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.486"
+            android:text="@string/flowsCase5TVDistinctUntilChanged"
+            />
+
+        <Button
+            android:id="@+id/buttonDrop"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvDistinctUntilChanged"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonDrop"
+            />
+
+        <TextView
+            android:id="@+id/tvDrop"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonDrop"
+            app:layout_constraintBottom_toBottomOf="@id/buttonDrop"
+            app:layout_constraintStart_toEndOf="@id/buttonDrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVDrop"
+            />
+
+        <Button
+            android:id="@+id/buttonSample"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvDrop"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase5ButtonSample"
+            />
+
+        <TextView
+            android:id="@+id/tvSample"
+            style="@style/CaseTitle"
+            app:layout_constraintTop_toTopOf="@id/buttonSample"
+            app:layout_constraintBottom_toBottomOf="@id/buttonSample"
+            app:layout_constraintStart_toEndOf="@id/buttonSample"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/flowsCase5TVSample"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
