@@ -255,4 +255,6 @@
     <string name="flowsCase6Title">Создаем свой оператор, который будет превращать любой текст в текст в верхнем регистре.</string>
     <string name="flowsCase6Button">Создать флоу и подписаться</string>
     <string name="flowsCase6Action1">"Выпущен элемент - %1$s</string>
+    <string name="flowsCase7Title">Создаем флоу, эмитим \'1\', затем с помощью emitAll() встраиваем все элементы другого флоу, из которого с разницей в 1 сек заэмитятся 10 букв, затем продолжаем этот флоу, который завершится на элементе \'2\'</string>
+    <string name="flowsCase7Button">Старт</string>
 </resources>
