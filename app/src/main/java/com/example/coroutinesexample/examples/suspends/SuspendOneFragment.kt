@@ -21,7 +21,7 @@ class SuspendOneFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.suspendCase1)
     }
-    lateinit var binding: FragmentSuspendOneBinding
+    private lateinit var binding: FragmentSuspendOneBinding
     private val backgroundColors = mutableListOf<Drawable>()
 
     override fun onCreateView(

@@ -20,7 +20,7 @@ class DispatcherTwoFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.dispatchersCase2)
     }
-    lateinit var binding: FragmentDispatcherTwoBinding
+    private lateinit var binding: FragmentDispatcherTwoBinding
     private val scope = CoroutineScope(Dispatchers.Default)
     private var allJobsCompleted = false
 

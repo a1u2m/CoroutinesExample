@@ -13,7 +13,7 @@ class ScopeFunctionThreeFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.scopeFunctionsCase3)
     }
-    lateinit var binding: FragmentScopefunctionThreeBinding
+    private lateinit var binding: FragmentScopefunctionThreeBinding
 
 
     override fun onCreateView(

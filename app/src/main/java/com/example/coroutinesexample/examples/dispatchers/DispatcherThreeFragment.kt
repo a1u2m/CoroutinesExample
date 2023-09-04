@@ -22,7 +22,7 @@ class DispatcherThreeFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.dispatchersCase3)
     }
-    lateinit var binding: FragmentDispatcherThreeBinding
+    private lateinit var binding: FragmentDispatcherThreeBinding
     private val scope = CoroutineScope(Dispatchers.IO)
     private var allJobsCompleted = false
     private val liveData = MutableLiveData<String>().apply {

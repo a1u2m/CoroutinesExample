@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.coroutinesexample.R
-import com.example.coroutinesexample.databinding.FragmentDispatcherOneBinding
 import com.example.coroutinesexample.databinding.FragmentErrorFiveBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
 
@@ -14,7 +13,7 @@ class ErrorFiveFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.errorsCase5)
     }
-    lateinit var binding: FragmentErrorFiveBinding
+    private lateinit var binding: FragmentErrorFiveBinding
 
 
     override fun onCreateView(

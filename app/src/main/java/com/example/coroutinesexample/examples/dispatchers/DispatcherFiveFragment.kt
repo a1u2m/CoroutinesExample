@@ -20,7 +20,7 @@ class DispatcherFiveFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.dispatchersCase5)
     }
-    lateinit var binding: FragmentDispatcherFiveBinding
+    private lateinit var binding: FragmentDispatcherFiveBinding
 
 
     override fun onCreateView(

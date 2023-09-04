@@ -19,7 +19,7 @@ class FlowFourFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.flowCase4)
     }
-    lateinit var binding: FragmentFlowFourBinding
+    private lateinit var binding: FragmentFlowFourBinding
     private lateinit var flow: Flow<Int>
 
 

@@ -13,7 +13,7 @@ class ChannelEightFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.channelsCase8)
     }
-    lateinit var binding: FragmentChannelEightBinding
+    private lateinit var binding: FragmentChannelEightBinding
 
 
     override fun onCreateView(

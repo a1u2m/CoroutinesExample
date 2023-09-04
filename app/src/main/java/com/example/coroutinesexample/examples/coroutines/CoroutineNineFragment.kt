@@ -13,7 +13,7 @@ class CoroutineNineFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.coroutinesCase9)
     }
-    lateinit var binding: FragmentCoroutineNineBinding
+    private lateinit var binding: FragmentCoroutineNineBinding
 
 
     override fun onCreateView(

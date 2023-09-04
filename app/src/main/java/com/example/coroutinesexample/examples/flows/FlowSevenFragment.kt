@@ -18,7 +18,7 @@ class FlowSevenFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.flowCase7)
     }
-    lateinit var binding: FragmentFlowSevenBinding
+    private lateinit var binding: FragmentFlowSevenBinding
     private val lettersFlow = flow {
         emit("a")
         delay(1000)

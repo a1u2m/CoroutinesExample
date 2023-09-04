@@ -19,7 +19,7 @@ class BuilderThreeFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.buildersCase3)
     }
-    lateinit var binding: FragmentBuilderThreeBinding
+    private lateinit var binding: FragmentBuilderThreeBinding
     private val scope = CoroutineScope(Job())
 
 

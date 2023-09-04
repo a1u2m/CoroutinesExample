@@ -13,7 +13,7 @@ class OperatorTwoFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.operatorsCase2)
     }
-    lateinit var binding: FragmentOperatorTwoBinding
+    private lateinit var binding: FragmentOperatorTwoBinding
 
 
     override fun onCreateView(

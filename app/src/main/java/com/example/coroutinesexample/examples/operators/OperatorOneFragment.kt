@@ -13,7 +13,7 @@ class OperatorOneFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.operatorsCase1)
     }
-    lateinit var binding: FragmentOperatorOneBinding
+    private lateinit var binding: FragmentOperatorOneBinding
 
 
     override fun onCreateView(

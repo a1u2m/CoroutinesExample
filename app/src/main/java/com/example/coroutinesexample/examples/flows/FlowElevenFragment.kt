@@ -13,7 +13,7 @@ class FlowElevenFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.flowCase11)
     }
-    lateinit var binding: FragmentFlowElevenBinding
+    private lateinit var binding: FragmentFlowElevenBinding
 
 
     override fun onCreateView(

@@ -22,7 +22,7 @@ class BuilderFourFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.buildersCase4)
     }
-    lateinit var binding: FragmentBuilderFourBinding
+    private lateinit var binding: FragmentBuilderFourBinding
     private val scope = CoroutineScope(Dispatchers.Default)
     lateinit var job: Job
     lateinit var deferred: Deferred<Unit>

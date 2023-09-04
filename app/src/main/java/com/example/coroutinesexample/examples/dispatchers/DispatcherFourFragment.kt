@@ -21,7 +21,7 @@ class DispatcherFourFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.dispatchersCase4)
     }
-    lateinit var binding: FragmentDispatcherFourBinding
+    private lateinit var binding: FragmentDispatcherFourBinding
     private val scope = CoroutineScope(Executors.newSingleThreadExecutor().asCoroutineDispatcher())
     private var allJobsCompleted = false
 

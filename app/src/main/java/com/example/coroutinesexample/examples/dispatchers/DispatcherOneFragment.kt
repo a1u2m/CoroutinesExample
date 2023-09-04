@@ -17,7 +17,7 @@ class DispatcherOneFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.dispatchersCase1)
     }
-    lateinit var binding: FragmentDispatcherOneBinding
+    private lateinit var binding: FragmentDispatcherOneBinding
 
 
     override fun onCreateView(
@@ -54,7 +54,7 @@ class DispatcherOneFragment : BaseExampleFragment() {
         }
     }
 
-    private suspend fun logActions(scope: CoroutineScope) {
+    private fun logActions(scope: CoroutineScope) {
         loggerVM.addLog(resources.getString(R.string.dispatchersCase1Action1))
         loggerVM.addLog(resources.getString(R.string.dispatchersCase1Action2))
         loggerVM.addLog(

@@ -13,7 +13,7 @@ class ErrorOneFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.errorsCase1)
     }
-    lateinit var binding: FragmentErrorOneBinding
+    private lateinit var binding: FragmentErrorOneBinding
 
 
     override fun onCreateView(

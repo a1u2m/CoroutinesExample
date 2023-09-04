@@ -17,7 +17,7 @@ class BuilderTwoFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.buildersCase2)
     }
-    lateinit var binding: FragmentBuilderTwoBinding
+    private lateinit var binding: FragmentBuilderTwoBinding
     private val scope = CoroutineScope(Job())
 
 

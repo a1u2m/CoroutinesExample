@@ -11,7 +11,7 @@ import com.example.coroutinesexample.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
-    lateinit var binding: FragmentHomeBinding
+    private lateinit var binding: FragmentHomeBinding
     private val adapter = HomeAdapter()
     private val vm: HomeViewModel by activityViewModels() //todo потом посмотреть нужна ли активити
 

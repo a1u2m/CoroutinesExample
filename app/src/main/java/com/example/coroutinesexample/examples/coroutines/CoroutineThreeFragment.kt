@@ -13,7 +13,7 @@ class CoroutineThreeFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.coroutinesCase3)
     }
-    lateinit var binding: FragmentCoroutineThreeBinding
+    private lateinit var binding: FragmentCoroutineThreeBinding
 
 
     override fun onCreateView(

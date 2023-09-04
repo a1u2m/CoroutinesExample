@@ -30,7 +30,7 @@ class FlowFiveFragment : BaseExampleFragment() {
     override val description: String by lazy {
         resources.getString(R.string.flowCase5)
     }
-    lateinit var binding: FragmentFlowFiveBinding
+    private lateinit var binding: FragmentFlowFiveBinding
     private val numbersList = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
     private val doubleNumbersList =
         listOf(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10)

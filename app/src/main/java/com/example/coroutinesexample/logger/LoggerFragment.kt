@@ -13,7 +13,7 @@ import com.example.coroutinesexample.databinding.FragmentLoggerBinding
 
 class LoggerFragment : Fragment() {
 
-    lateinit var binding: FragmentLoggerBinding
+    private lateinit var binding: FragmentLoggerBinding
     private var adapter = LogsAdapter()
     private val vm: LoggerViewModel by activityViewModels()
 
