@@ -8,7 +8,7 @@ import androidx.lifecycle.MutableLiveData
 import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentDispatcherThreeBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
-import com.example.coroutinesexample.utis.Utils
+import com.example.coroutinesexample.utils.Utils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

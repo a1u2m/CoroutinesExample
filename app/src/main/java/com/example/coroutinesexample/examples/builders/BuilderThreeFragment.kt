@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentBuilderThreeBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
-import com.example.coroutinesexample.utis.Utils
+import com.example.coroutinesexample.utils.Utils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.async

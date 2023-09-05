@@ -9,7 +9,7 @@ import androidx.core.content.res.ResourcesCompat
 import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentSuspendOneBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
-import com.example.coroutinesexample.utis.Utils
+import com.example.coroutinesexample.utils.Utils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

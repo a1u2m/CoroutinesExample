@@ -312,4 +312,8 @@
     <string name="flowsCase9Action8">Здесь с помощью onCompletion мы вывели в лог момент конца работы флоу, указав throwable. Если бы была реальная ошибка, могли бы с ней что-то сделать</string>
     <string name="flowsCase9Action9">Здесь с помощью onEmpty мы вывели в лог запись в случае когда флоу пустой</string>
     <string name="flowsCase9Action10">Здесь мы просто скомбинировали все операторы кроме onEmpty</string>
+    <string name="flowsCase10Title">Создаем channelFlow. В трех параллельных корутинах он будет эмиттить по элементу, каждая корутина ждет на 1 секунду дольше чем предыдущая прежде чем выпустить значение.</string>
+    <string name="flowsCase10Button">Создать</string>
+    <string name="flowsCase10Action1">Получили элемент %1$d</string>
+    <string name="flowsCase10Action2">С помощью channelFlow можно собирать элементы из разных корутин и под капотом они будут передаваться в ту корутину, которая обрабатывает collect</string>
 </resources>

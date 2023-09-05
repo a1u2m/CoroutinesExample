@@ -122,7 +122,7 @@ class HomeViewModel : ViewModel() {
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase7, R.id.toFlowSeven))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase8, R.id.toFlowEight))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase9, R.id.toFlowNine))
-        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase10, R.id.toFlowTen))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase10, R.id.toFlowTen))
         temp.add(HomeItemModel.HomeItemItem(R.string.flowCase11, R.id.toFlowEleven))
         temp.add(HomeItemModel.HomeItemItem(R.string.flowCase12, R.id.toFlowTwelve))
         temp.add(HomeItemModel.HomeItemItem(R.string.flowCase13, R.id.toFlowThirteen))

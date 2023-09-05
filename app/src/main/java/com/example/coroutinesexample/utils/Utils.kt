@@ -1,4 +1,4 @@
-package com.example.coroutinesexample.utis
+package com.example.coroutinesexample.utils
 
 import android.annotation.SuppressLint
 import java.text.SimpleDateFormat
