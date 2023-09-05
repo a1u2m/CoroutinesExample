@@ -296,4 +296,20 @@
     <string name="flowsCase8Action21">Оператор fold, промежуточное значение accumulator: %1$d</string>
     <string name="flowsCase8Action22">Оператор fold, итоговое значение: %1$d</string>
     <string name="flowsCase8Action23">fold позволяет выполнить преобразования с аккумулированным значением и каждым элементом флоу, при этом мы задаем стартовое значение в конструкторе. В отличие от reduce можем узнать промежуточные значения accumulator, что и видно в этом примере.</string>
+    <string name="flowsCase9Title">Создадим 4 разных флоу и в каждом используем intermediate операторы, не рассмотренные ранее. Как и с остальными intermediate операторами, они могут работать в цепочке.</string>
+    <string name="flowsCase9ButtonOnEach">onEach</string>
+    <string name="flowsCase9ButtonOnStart">onStart</string>
+    <string name="flowsCase9ButtonOnCompletion">onCompletion</string>
+    <string name="flowsCase9ButtonOnEmpty">onEmpty</string>
+    <string name="flowsCase9ButtonEach">Все кроме onEmpty</string>
+    <string name="flowsCase9Action1">Вызвался onStart, элемент нам тут недоступен</string>
+    <string name="flowsCase9Action2">Вызвался onEach на элементе %1$s</string>
+    <string name="flowsCase9Action3">Вызвался onCompletion, тут нам доступен throwable: %1$s</string>
+    <string name="flowsCase9Action4">Элемент флоу: %1$s</string>
+    <string name="flowsCase9Action5">Вызвался onEmpty, тут нам ничего не доступно</string>
+    <string name="flowsCase9Action6">Здесь с помощью onEach мы каждый раз добавляли запись в лог перед тем как вывести в лог сам элемент</string>
+    <string name="flowsCase9Action7">Здесь с помощью onStart мы вывели в лог момент начала работы флоу</string>
+    <string name="flowsCase9Action8">Здесь с помощью onCompletion мы вывели в лог момент конца работы флоу, указав throwable. Если бы была реальная ошибка, могли бы с ней что-то сделать</string>
+    <string name="flowsCase9Action9">Здесь с помощью onEmpty мы вывели в лог запись в случае когда флоу пустой</string>
+    <string name="flowsCase9Action10">Здесь мы просто скомбинировали все операторы кроме onEmpty</string>
 </resources>
