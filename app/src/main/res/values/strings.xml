@@ -327,4 +327,8 @@
     <string name="flowsCase12Action3">Поток в onEach после фильтра в мейне, элемент из флоу - %1$d, поток - %2$s</string>
     <string name="flowsCase12Action4">Поток в onEach после мапы после flowOn, спереди flowOn больше нет, значит мейн, элемент из флоу - %1$s, поток - %2$s</string>
     <string name="flowsCase12Action5">Финальный элемент из флоу из блока коллект - %1$s, поток - %2$s</string>
+    <string name="flowsCase13Title">Работа оператора buffer</string>
+    <string name="flowsCase13Button">Создать флоу</string>
+    <string name="flowsCase13Action1">Элемент - %1$d, время - %2$s</string>
+    <string name="flowsCase13Action2">В флоу цифры с 1 по 10. Размер буфера установлен в 2, используется стратегия работы с переполнением BufferOverflow.DROP_OLDEST. Поэтому мы получаем первый элемент, и из-за того что в блоке коллект обрабатывается не больше 1 элемента в секунду и мы используем буфер со стратегией замены старых значений получает в итоге первое и два последних значения этого флоу.</string>
 </resources>
