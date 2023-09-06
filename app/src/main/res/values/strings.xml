@@ -316,4 +316,8 @@
     <string name="flowsCase10Button">Создать</string>
     <string name="flowsCase10Action1">Получили элемент %1$d</string>
     <string name="flowsCase10Action2">С помощью channelFlow можно собирать элементы из разных корутин и под капотом они будут передаваться в ту корутину, которая обрабатывает collect</string>
+    <string name="flowsCase11Title">Работа callbackFlow на примере editText. Если уйти с экрана или написать close, сработает колбек</string>
+    <string name="flowsCase11Hint">Тут надо начать чето писать</string>
+    <string name="flowsCase11Action1">Сработал awaitClose, т.к. флоу отменили</string>
+    <string name="flowsCase11Action2">Это получили из флоу: %1$s</string>
 </resources>
