@@ -320,4 +320,11 @@
     <string name="flowsCase11Hint">Тут надо начать чето писать</string>
     <string name="flowsCase11Action1">Сработал awaitClose, т.к. флоу отменили</string>
     <string name="flowsCase11Action2">Это получили из флоу: %1$s</string>
+    <string name="flowsCase12Title">Работа оператора flowOn, который меняет потоки. Работает на предыдущие операторы.</string>
+    <string name="flowsCase12Button">Создать флоу</string>
+    <string name="flowsCase12Action1">Поток до создания флоу - %1$s</string>
+    <string name="flowsCase12Action2">Поток в onEach в ио, элемент из флоу - %1$d, поток -  %2$S</string>
+    <string name="flowsCase12Action3">Поток в onEach после фильтра в мейне, элемент из флоу - %1$d, поток - %2$s</string>
+    <string name="flowsCase12Action4">Поток в onEach после мапы после flowOn, спереди flowOn больше нет, значит мейн, элемент из флоу - %1$s, поток - %2$s</string>
+    <string name="flowsCase12Action5">Финальный элемент из флоу из блока коллект - %1$s, поток - %2$s</string>
 </resources>
