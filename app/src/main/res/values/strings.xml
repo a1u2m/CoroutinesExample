@@ -331,4 +331,7 @@
     <string name="flowsCase13Button">Создать флоу</string>
     <string name="flowsCase13Action1">Элемент - %1$d, время - %2$s</string>
     <string name="flowsCase13Action2">В флоу цифры с 1 по 10. Размер буфера установлен в 2, используется стратегия работы с переполнением BufferOverflow.DROP_OLDEST. Поэтому мы получаем первый элемент, и из-за того что в блоке коллект обрабатывается не больше 1 элемента в секунду и мы используем буфер со стратегией замены старых значений получает в итоге первое и два последних значения этого флоу.</string>
+    <string name="flowsCase14Title">Работа оператора produceIn. Создается канал, который сразу начинает свою работу, не дожидаясь подписчиков</string>
+    <string name="flowsCase14Button">Создать канал</string>
+    <string name="flowsCase14Action1">Из созданного с помощью produceIn канала получен элемент %1$d</string>
 </resources>
