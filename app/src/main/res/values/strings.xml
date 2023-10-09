@@ -336,7 +336,14 @@
     <string name="flowsCase14Action1">Из созданного с помощью produceIn канала получен элемент %1$d</string>
     <string name="flowsCase15Title">Работа оператора catch.</string>
     <string name="flowsCase15Button">Запустить пример</string>
-    <string name="flowsCase16Action1">Сработал оператор catch, поймана ошибка: %1$s</string>
-    <string name="flowsCase16Action2">Получен элемент %1$d</string>
-    <string name="flowsCase16Action3">catch ловит ошибки только на коде до catch. Так же можно использовать несколько catch при необходимости в одной цепочке. Корутина отменяется при любой ошибке</string>
+    <string name="flowsCase15Action1">Сработал оператор catch, поймана ошибка: %1$s</string>
+    <string name="flowsCase15Action2">Получен элемент %1$d</string>
+    <string name="flowsCase15Action3">catch ловит ошибки только на коде до catch. Так же можно использовать несколько catch при необходимости в одной цепочке. Корутина отменяется при любой ошибке</string>
+    <string name="flowsCase16Title">Работа оператора retry.</string>
+    <string name="flowsCase16Button">Запустить пример</string>
+    <string name="flowsCase16Action1">Результат деления 100 на элемент: %1$d</string>
+    <string name="flowsCase16Action2">retry сработает 2 раза, затем ошибка пойдет дальше, но будет поймана оператором catch</string>
+    <string name="flowsCase16Action3">Сработал retry, ошибка: %1$s</string>
+    <string name="flowsCase16Action4">retry сработал %1$d раз</string>
+    <string name="flowsCase16Action5">Поймана ошибка: %1$s</string>
 </resources>

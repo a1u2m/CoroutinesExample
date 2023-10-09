@@ -51,11 +51,11 @@ class FlowFifteenFragment : BaseExampleFragment() {
                 emit(4)
                 delay(500)
                 emit(5)
-            }.catch { loggerVM.addLog(resources.getString(R.string.flowsCase16Action1, it)) }
+            }.catch { loggerVM.addLog(resources.getString(R.string.flowsCase15Action1, it)) }
                 .collect {
-                    loggerVM.addLog(resources.getString(R.string.flowsCase16Action2, it))
+                    loggerVM.addLog(resources.getString(R.string.flowsCase15Action2, it))
                 }
-            loggerVM.addLog(resources.getString(R.string.flowsCase16Action3))
+            loggerVM.addLog(resources.getString(R.string.flowsCase15Action3))
         }
     }
 }
