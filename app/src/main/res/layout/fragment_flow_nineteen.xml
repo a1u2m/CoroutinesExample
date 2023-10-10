@@ -21,14 +21,25 @@
             />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonEmit"
             style="@style/Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/description"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_margin="@dimen/margin_x2"
-            android:text="@string/flowsCase19Button"
+            android:text="@string/flowsCase19ButtonEmit"
+            />
+
+        <Button
+            android:id="@+id/buttonSubscribe"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/buttonEmit"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="@dimen/margin_x2"
+            android:text="@string/flowsCase19ButtonSubscribe"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
