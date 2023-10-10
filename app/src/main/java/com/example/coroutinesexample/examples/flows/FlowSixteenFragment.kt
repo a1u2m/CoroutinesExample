@@ -8,17 +8,11 @@ import androidx.lifecycle.lifecycleScope
 import com.example.coroutinesexample.R
 import com.example.coroutinesexample.databinding.FragmentFlowSixteenBinding
 import com.example.coroutinesexample.examples.BaseExampleFragment
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.FlowPreview
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.produceIn
 import kotlinx.coroutines.flow.retry
 import kotlinx.coroutines.launch
-import java.lang.ArithmeticException
 
 class FlowSixteenFragment : BaseExampleFragment() {
 

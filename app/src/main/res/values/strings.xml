@@ -346,4 +346,10 @@
     <string name="flowsCase16Action3">Сработал retry, ошибка: %1$s</string>
     <string name="flowsCase16Action4">retry сработал %1$d раз</string>
     <string name="flowsCase16Action5">Поймана ошибка: %1$s</string>
+    <string name="flowsCase17Title">Работа оператора retryWhen.</string>
+    <string name="flowsCase17Button">Запустить пример</string>
+    <string name="flowsCase17Action1">retryWhen будет работать, пока количество попыток будет меньше 2</string>
+    <string name="flowsCase17Action2">Поймана ошибка: %1$s</string>
+    <string name="flowsCase17Action3">Результат деления 100 на элемент: %1$d</string>
+    <string name="flowsCase17Action4">Блок retryWhen, ошибка - %1$s, попытка - %2$d</string>
 </resources>
