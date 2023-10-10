@@ -359,4 +359,11 @@
     <string name="flowsCase18Action2">Флоу будет выдавать по порядку: 1, 2, 3, 4, 5. На числе "3" корутина будет отменена. Мы должны будем увидеть сообщение из кода после блока коллект.</string>
     <string name="flowsCase18Action3">Блок catch, поймана ошибка: %1$s</string>
     <string name="flowsCase18Action4">Код после try-catch, в который обернут блок collect</string>
+    <string name="flowsCase19Title">Кнопкой подписываем на шаредфлоу подписчика, затем с интервалом в 1 секунду подпишутся еще два. Проверим что шаредфлоу выдает одно и то же для всех подписчиков</string>
+    <string name="flowsCase19Button">Запустить пример</string>
+    <string name="flowsCase19Action1">Получен элемент списка %1$d</string>
+    <string name="flowsCase20Title">На каждое нажатие кнопки подписываем на стейтфлоу подписчика. Видим что стейтфлоу выдает одно и то же для всех подписчиков, а когда подписываемся на уже закончившийся флоу то получаем последнее значение</string>
+    <string name="flowsCase20Button">Запустить пример</string>
+    <string name="flowsCase20Action1">Получен элемент %1$d, тред - %2$s</string>
+
 </resources>
