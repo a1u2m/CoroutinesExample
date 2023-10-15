@@ -112,7 +112,7 @@ class HomeViewModel : ViewModel() {
 //        temp.add(HomeItemModel.HomeItemItem(R.string.channelsCase12, R.id.toChannelsTwelve))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.channelsCase13, R.id.toChannelsThirteen))
 
-        temp.add(HomeItemModel.HomeTitleItem(R.string.titleFlow))
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleFlow))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase1, R.id.toFlowOne))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase2, R.id.toFlowTwo))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase3, R.id.toFlowThree))
@@ -138,7 +138,7 @@ class HomeViewModel : ViewModel() {
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase23, R.id.toFlowTwentyThree))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase24, R.id.toFlowTwentyFour))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase25, R.id.toFlowTwentyFive))
-        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase26, R.id.toFlowTwentySix))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.flowCase26, R.id.toFlowTwentySix))
 
 //        temp.add(HomeItemModel.HomeTitleItem(R.string.titleOperators)) //ne gotovo
 //        temp.add(HomeItemModel.HomeItemItem(R.string.operatorsCase1, R.id.toOperatorsOne))
