@@ -384,4 +384,11 @@
     <string name="flowsCase22Action2">Первый подписчик, получен элемент %1$d</string>
     <string name="flowsCase22Action3">Второй подписчик, получен элемент %1$d</string>
     <string name="flowsCase22Action4">Третий подписчик, получен элемент %1$d</string>
+    <string name="flowsCase23Title">В этом примере проверяем стратегии при переполнении буфера. Флоу будет генерировать элементы каждые 0.5 сек. Первый подписчик будет обрабатывать их с такой же скоростью, второй со скоростью элемент в 1 сек, третий со скоростью элемент в 2 сек. Всего будет 50 элементов, буфер будет на 10 элементов. SUSPEND будет приостанавливать корутины, пока не появятся свободные слоты в буфере. DROP_OLDEST будет удалять из буфера наиболее старые элементы. До медленных получателей дойдут не все данные. DROP_LATEST не будет отправлять новые значения, пока буфер заполнен, все получатели будут пропускать новые данные, если медленные получатели все еще обрабатывают старые данные.</string>
+    <string name="flowsCase23ButtonSus">SUSPEND</string>
+    <string name="flowsCase23ButtonOld">DROP_OLDEST</string>
+    <string name="flowsCase23ButtonLat">DROP_LATEST</string>
+    <string name="flowsCase23Action1">Первый подписчик, получен элемент %1$d</string>
+    <string name="flowsCase23Action2">Второй подписчик, получен элемент %1$d</string>
+    <string name="flowsCase23Action3">Третий подписчик, получен элемент %1$d</string>
 </resources>
