@@ -154,18 +154,18 @@ class FlowTwentyThreeFragment : BaseExampleFragment() {
             delay(500)
             flow.emit(
                 when (counterName) {
-                    COUNTER_LAT -> counterLat
-                    COUNTER_OLD -> counterOld
                     COUNTER_SUS -> counterSus
+                    COUNTER_OLD -> counterOld
+                    COUNTER_LAT -> counterLat
                     else -> {
                         counter
                     }
                 }
             )
             when (counterName) {
-                COUNTER_LAT -> counterLat++
-                COUNTER_OLD -> counterOld++
                 COUNTER_SUS -> counterSus++
+                COUNTER_OLD -> counterOld++
+                COUNTER_LAT -> counterLat++
             }
         }
     }
