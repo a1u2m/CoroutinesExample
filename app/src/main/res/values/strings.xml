@@ -405,4 +405,11 @@
     <string name="flowsCase25Action1">Первый подписчик, получен элемент %1$d</string>
     <string name="flowsCase25Action2">Второй подписчик, получен элемент %1$d</string>
     <string name="flowsCase25Action3">Третий подписчик, получен элемент %1$d</string>
+    <string name="operatorsCase1Title">Оператор select возвращает результат той корутины, что отработала быстрее остальных. В этом примере будут одновременно запущены две async корутины, первая возвращает значение 1 через 2 сек, вторая значение 2 через 3 сек. В результате увидим только то что сработало быстрее.</string>
+    <string name="operatorsCase1Button">Запустить пример</string>
+    <string name="operatorsCase1Action1">Первая асинк пошла</string>
+    <string name="operatorsCase1Action2">Первая синк завершилась и вернула результат</string>
+    <string name="operatorsCase1Action3">Вторая асинк пошла</string>
+    <string name="operatorsCase1Action4">Вторая синк завершилась и вернула результат, но это нам уже без разницы</string>
+    <string name="operatorsCase1Action5">Получен результат от корутины %1$d</string>
 </resources>
