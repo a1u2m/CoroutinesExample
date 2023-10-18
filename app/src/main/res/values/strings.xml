@@ -417,4 +417,14 @@
     <string name="operatorsCase2Action1">Получены данные: %1$s</string>
     <string name="operatorsCase2Action2">Есть клик</string>
     <string name="operatorsCase2Action3">Допустим, что это данные которые мы получили</string>
+    <string name="scopesCase1Title">После нажатия на кнопку запускаем 3 корутины из одного скоупа, корутины выполняют свою работу 5 секунд. Сразу после запуска проверяем состояния скоупа и джобов корутин. Но через 3 секунды после запуска мы отменяем скоуп и после этого еще раз проверяем состояния скоупов и джобов корутин.</string>
+    <string name="scopesCase1Button">Запустить пример</string>
+    <string name="scopesCase1Action1">Первая корутина пошла</string>
+    <string name="scopesCase1Action2">Вторая корутина пошла</string>
+    <string name="scopesCase1Action3">Третья корутина пошла</string>
+    <string name="scopesCase1Action4">Сейчас отменим скоуп</string>
+    <string name="scopesCase1Action5">Скоуп активен - %1$s</string>
+    <string name="scopesCase1Action6">Первая джоба активна - %1$s</string>
+    <string name="scopesCase1Action7">Вторая джоба активна - %1$s</string>
+    <string name="scopesCase1Action8">Третья джоба активна - %1$s</string>
 </resources>

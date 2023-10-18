@@ -16,7 +16,7 @@ class HomeViewModel : ViewModel() {
         val temp = mutableListOf<HomeItemModel>()
         //закомменчиваю законченные блоки чтоб не мешались. потом верну
 
-//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleDispatchers)) //gotovo
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleDispatchers))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase1, R.id.toDispatchersOne))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase2, R.id.toDispatchersTwo))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.dispatchersCase3, R.id.toDispatchersThree))
@@ -32,13 +32,13 @@ class HomeViewModel : ViewModel() {
 //        temp.add(HomeItemModel.HomeItemItem(R.string.errorsCase6, R.id.toErrorsSix))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.errorsCase7, R.id.toErrorsSeven))
 
-//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleBuilders)) //gotovo
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleBuilders))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.buildersCase1, R.id.toBuildersOne))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.buildersCase2, R.id.toBuildersTwo))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.buildersCase3, R.id.toBuildersThree))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.buildersCase4, R.id.toBuildersFour))
 
-//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleSuspend)) //gotovo
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleSuspend))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.suspendCase1, R.id.toSuspendOne))
 
 //        temp.add(HomeItemModel.HomeTitleItem(R.string.titleCoroutines)) //ne gotovo
@@ -56,11 +56,11 @@ class HomeViewModel : ViewModel() {
 //        temp.add(HomeItemModel.HomeItemItem(R.string.coroutinesCase12, R.id.toCoroutinesTwelve))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.coroutinesCase13, R.id.toCoroutinesThirteen))
 
-//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScope)) //ne gotovo
+        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScope))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase1, R.id.toScopeOne))
-//        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase2, R.id.toScopeTwo))
-//        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase3, R.id.toScopeThree))
-//        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase4, R.id.toScopeFour))
+        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase2, R.id.toScopeTwo))
+        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase3, R.id.toScopeThree))
+        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase4, R.id.toScopeFour))
 
 //        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScopeFunctions)) //ne gotovo
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase1, R.id.toScopeFunctionsOne))
