@@ -427,4 +427,20 @@
     <string name="scopesCase1Action6">Первая джоба активна - %1$s</string>
     <string name="scopesCase1Action7">Вторая джоба активна - %1$s</string>
     <string name="scopesCase1Action8">Третья джоба активна - %1$s</string>
+    <string name="scopesCase2Title">Создаем иерархии корутин (просто запуская корутины из корутин). Иерархия трехуровневая, отменяем какую-либо корутину из иерархии и смотрим какие отменилилсь.</string>
+    <string name="scopesCase2ButtonOne">Отмена самой низкой по иерархии корутины</string>
+    <string name="scopesCase2ButtonTwo">Отмена средней в иерархии корутины</string>
+    <string name="scopesCase2ButtonThree">Отмена самой главной родительской корутины</string>
+    <string name="scopesCase2Action1">Первая корутина пошла</string>
+    <string name="scopesCase2Action2">Вторая корутина пошла (дочерняя от первой)</string>
+    <string name="scopesCase2Action3">Третья корутина пошла (дочерняя от второй)</string>
+    <string name="scopesCase2Action4">Сейчас отменится третья корутина</string>
+    <string name="scopesCase2Action5">Сейчас отменится вторая корутина</string>
+    <string name="scopesCase2Action6">Сейчас отменится первая корутина</string>
+    <string name="scopesCase2Action7">Первая корутина активна - %1$s</string>
+    <string name="scopesCase2Action8">Вторая корутина активна - %1$s</string>
+    <string name="scopesCase2Action9">Третья корутина активна - %1$s</string>
+    <string name="scopesCase2Action10">В иерархии корутин отмена самой низко стоящей в иерархии корутины отменяет только ее</string>
+    <string name="scopesCase2Action11">В иерархии корутин отмена родительской корутины приводит к отмене дочерних корутин</string>
+    <string name="scopesCase2Action12">В иерархии корутин отмена родительской корутины приводит к отмене дочерних корутин (по сути это то же самое что и пример 2, но здесь отменяется самая родительская корутина из всех</string>
 </resources>
