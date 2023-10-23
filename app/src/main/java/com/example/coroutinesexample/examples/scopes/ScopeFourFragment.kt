@@ -22,7 +22,7 @@ class ScopeFourFragment : BaseExampleFragment() {
     private lateinit var jobOne: Job
     private lateinit var jobTwo: Job
     private lateinit var jobThree: Job
-    private val customScope = CoroutineScope(Job() + Dispatchers.Main)
+    private val customScope = CoroutineScope(Dispatchers.Main)
 
 
     override fun onCreateView(
