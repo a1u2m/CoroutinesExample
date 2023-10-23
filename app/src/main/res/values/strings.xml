@@ -474,4 +474,10 @@
     <string name="scopeFunctionsCase1Action5">Четвертая дочерняя корутина пошла (эта запущена внутри родительской, но в отдельном скоупе</string>
     <string name="scopeFunctionsCase1Action6">Проверяем активность корутин. Главная - %1$s, первая - %2$s, вторая - %3$s, третья - %4$s, четвертая - %5$s</string>
     <string name="scopeFunctionsCase1Action7">Сейчас отменим скоуп в котором запущены третья и четвертая корутина</string>
+    <string name="scopeFunctionsCase2Title">С помощью withContext меняем элементы контекста. В этом примере только диспетчеры, но менять можно что угодно.</string>
+    <string name="scopeFunctionsCase2Button">Запустить пример</string>
+    <string name="scopeFunctionsCase2Action1">Запустили корутину в lifecycleScope</string>
+    <string name="scopeFunctionsCase2Action2">Элементы контекста корутины - %1$s</string>
+    <string name="scopeFunctionsCase2Action3">Использовали withContext, поменяли диспетчер на Main</string>
+    <string name="scopeFunctionsCase2Action4">Использовали withContext, поменяли диспетчер на IO</string>
 </resources>

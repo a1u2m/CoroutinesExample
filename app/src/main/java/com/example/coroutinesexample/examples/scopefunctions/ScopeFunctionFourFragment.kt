@@ -11,7 +11,7 @@ import com.example.coroutinesexample.examples.BaseExampleFragment
 class ScopeFunctionFourFragment : BaseExampleFragment() {
 
     override val description: String by lazy {
-        resources.getString(R.string.scopeFunctionsCase4)
+        resources.getString(R.string.scopeFunctionsCase5)
     }
     private lateinit var binding: FragmentScopefunctionFourBinding
 
