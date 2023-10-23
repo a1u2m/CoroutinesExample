@@ -456,4 +456,13 @@
     <string name="scopesCase3Action9">Контекст второй корутины - %1$s</string>
     <string name="scopesCase3Action10">Контекст третьей корутины - %1$s</string>
     <string name="scopesCase3Action11">На этом примере видим что контекст наследуется дочерними корутинами</string>
+    <string name="scopesCase4Title">Создаем основную корутину, от нее дочерние, при создании меняем элементы контекста и смотрим что получается.</string>
+    <string name="scopesCase4Button">Запустить пример</string>
+    <string name="scopesCase4Action1">Первая корутина пошла. Диспетчер будет Main</string>
+    <string name="scopesCase4Action2">Контекст основной корутины - %1$s</string>
+    <string name="scopesCase4Action3">Вторая корутина пошла (дочерняя от первой)</string>
+    <string name="scopesCase4Action4">Контекст второй корутины - %1$s</string>
+    <string name="scopesCase4Action5">Третья корутина пошла (дочерняя от второй), диспетчер заменили на IO</string>
+    <string name="scopesCase4Action6">Контекст третьей корутины - %1$s</string>
+    <string name="scopesCase4Action7">На этом примере видим что контекст наследуется от родительских корутин к дочерним, но при необходимости мы можем менять элементы контекста</string>
 </resources>

@@ -56,11 +56,11 @@ class HomeViewModel : ViewModel() {
 //        temp.add(HomeItemModel.HomeItemItem(R.string.coroutinesCase12, R.id.toCoroutinesTwelve))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.coroutinesCase13, R.id.toCoroutinesThirteen))
 
-        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScope))
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScope))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase1, R.id.toScopeOne))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase2, R.id.toScopeTwo))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase3, R.id.toScopeThree))
-        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase4, R.id.toScopeFour))
+//        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase4, R.id.toScopeFour))
 
 //        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScopeFunctions)) //ne gotovo
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase1, R.id.toScopeFunctionsOne))
