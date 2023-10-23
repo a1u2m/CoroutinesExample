@@ -443,4 +443,17 @@
     <string name="scopesCase2Action10">В иерархии корутин отмена самой низко стоящей в иерархии корутины отменяет только ее</string>
     <string name="scopesCase2Action11">В иерархии корутин отмена родительской корутины приводит к отмене дочерних корутин</string>
     <string name="scopesCase2Action12">В иерархии корутин отмена родительской корутины приводит к отмене дочерних корутин (по сути это то же самое что и пример 2, но здесь отменяется самая родительская корутина из всех</string>
+    <string name="scopesCase3Title">Создаем свой объект в скоупе, добавляем его в контекст, проверяем что контекст наследуется дочерними корутинами и пытаемся оттуда достать то что положили. Так же проверяем что контекст наследуется дочерними корутинами.</string>
+    <string name="scopesCase3Button">Запустить пример</string>
+    <string name="scopesCase3Action1">Это наш добавленный в контекст элемент</string>
+    <string name="scopesCase3Action2">Первая корутина пошла</string>
+    <string name="scopesCase3Action3">Вторая корутина пошла (дочерняя от первой)</string>
+    <string name="scopesCase3Action4">Третья корутина пошла (дочерняя от второй)</string>
+    <string name="scopesCase3Action5">Наш кастомный элемент контекста в основной корутине - %1$s</string>
+    <string name="scopesCase3Action6">Наш кастомный элемент контекста во второй корутине - %1$s</string>
+    <string name="scopesCase3Action7">Наш кастомный элемент контекста в третьей корутине - %1$s</string>
+    <string name="scopesCase3Action8">Контекст основной корутины - %1$s</string>
+    <string name="scopesCase3Action9">Контекст второй корутины - %1$s</string>
+    <string name="scopesCase3Action10">Контекст третьей корутины - %1$s</string>
+    <string name="scopesCase3Action11">На этом примере видим что контекст наследуется дочерними корутинами</string>
 </resources>
