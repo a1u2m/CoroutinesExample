@@ -65,12 +65,12 @@ class HomeViewModel : ViewModel() {
         temp.add(HomeItemModel.HomeTitleItem(R.string.titleScopeFunctions))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase1, R.id.toScopeFunctionsOne))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase3, R.id.toScopeFunctionsTwo))
-        temp.add(
-            HomeItemModel.HomeItemItem(
-                R.string.scopeFunctionsCase4,
-                R.id.toScopeFunctionsThree
-            )
-        )
+//        temp.add(
+//            HomeItemModel.HomeItemItem(
+//                R.string.scopeFunctionsCase4,
+//                R.id.toScopeFunctionsThree
+//            )
+//        )
         temp.add(
             HomeItemModel.HomeItemItem(
                 R.string.scopeFunctionsCase5,
