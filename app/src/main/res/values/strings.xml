@@ -498,4 +498,8 @@
     <string name="scopeFunctionsCase6Title">Кнопка запустит корутину в mainScope, который жив пока живо приложение. Раз в секунду будет происходить запись в лог. Чтобы это остановить, надо перезапустить приложение.</string>
     <string name="scopeFunctionsCase6Button">Запустить пример</string>
     <string name="scopeFunctionsCase6Action1">Запустили корутину из mainScope. Она будет жить пока живо приложение, даже если мы уйдем с этого фрагмента.</string>
+    <string name="scopeFunctionsCase7Title">Кнопка запустит корутину в нашем кастомном скоупе, который мы можем отменить когда захотим. Раз в секунду будет происходить запись в лог. Чтобы это остановить, надо нажать вторую кнопку.</string>
+    <string name="scopeFunctionsCase7ButtonStart">Запустить пример</string>
+    <string name="scopeFunctionsCase7ButtonCancel">Отменить скоуп</string>
+    <string name="scopeFunctionsCase7Action1">Запустили корутину из своего скоупа</string>
 </resources>
