@@ -489,4 +489,7 @@
     <string name="scopeFunctionsCase3Action5">Запустили первую корутину как обычно. Тред - %1$s</string>
     <string name="scopeFunctionsCase3Action6">Обычная корутина закончилась. Тред - %1$s</string>
     <string name="scopeFunctionsCase3Action7">Запустили вторую корутину как обычно. runBlocking заблокировал поток, поэтому UI не обновлялся, но все обновилось одновременно когда runBlocking закончил выполнение. Это сообщение из другой корутины, как видим без runBlocking оно работает параллельно. Тред - %1$s</string>
+    <string name="scopeFunctionsCase4Title">Кнопка запустит в вмке viewmodelScope, в котором раз в секунду будут генерироваться данные. Если мы уйдем с этого фрагмента, уничтожится вм вместе со своим скоупом.</string>
+    <string name="scopeFunctionsCase4Button">Запустить пример</string>
+    <string name="scopeFunctionsCase4Action1">Из вм пришло: %1$s</string>
 </resources>

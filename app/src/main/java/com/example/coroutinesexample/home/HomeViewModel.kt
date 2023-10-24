@@ -71,12 +71,12 @@ class HomeViewModel : ViewModel() {
 //                R.id.toScopeFunctionsThree
 //            )
 //        )
-        temp.add(
-            HomeItemModel.HomeItemItem(
-                R.string.scopeFunctionsCase5,
-                R.id.toScopeFunctionsFour
-            )
-        )
+//        temp.add(
+//            HomeItemModel.HomeItemItem(
+//                R.string.scopeFunctionsCase5,
+//                R.id.toScopeFunctionsFour
+//            )
+//        )
         temp.add(
             HomeItemModel.HomeItemItem(
                 R.string.scopeFunctionsCase6,
