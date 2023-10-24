@@ -492,4 +492,7 @@
     <string name="scopeFunctionsCase4Title">Кнопка запустит в вмке viewmodelScope, в котором раз в секунду будут генерироваться данные. Если мы уйдем с этого фрагмента, уничтожится вм вместе со своим скоупом.</string>
     <string name="scopeFunctionsCase4Button">Запустить пример</string>
     <string name="scopeFunctionsCase4Action1">Из вм пришло: %1$s</string>
+    <string name="scopeFunctionsCase5Title">Кнопка запустит в фрагменте lifecycleScope, в котором раз в секунду будут генерироваться данные. Если мы уйдем с этого фрагмента, фрагмент уничтожится вместе со своим скоупом.</string>
+    <string name="scopeFunctionsCase5Button">Запустить пример</string>
+    <string name="scopeFunctionsCase5Action1">Запустили корутину из lifecycleScope. Она будет жить пока жив этот фрагмент</string>
 </resources>
