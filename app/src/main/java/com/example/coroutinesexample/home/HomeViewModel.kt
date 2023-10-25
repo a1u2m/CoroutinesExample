@@ -62,7 +62,7 @@ class HomeViewModel : ViewModel() {
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase3, R.id.toScopeThree))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeCase4, R.id.toScopeFour))
 
-        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScopeFunctions))
+//        temp.add(HomeItemModel.HomeTitleItem(R.string.titleScopeFunctions))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase1, R.id.toScopeFunctionsOne))
 //        temp.add(HomeItemModel.HomeItemItem(R.string.scopeFunctionsCase3, R.id.toScopeFunctionsTwo))
 //        temp.add(
@@ -90,12 +90,12 @@ class HomeViewModel : ViewModel() {
 //                R.id.toScopeFunctionsSeven
 //            )
 //        )
-        temp.add(
-            HomeItemModel.HomeItemItem(
-                R.string.scopeFunctionsCase2,
-                R.id.toScopeFunctionsEight
-            )
-        )
+//        temp.add(
+//            HomeItemModel.HomeItemItem(
+//                R.string.scopeFunctionsCase2,
+//                R.id.toScopeFunctionsEight
+//            )
+//        )
 
 //        temp.add(HomeItemModel.HomeTitleItem(R.string.titleChannels)) //ne gotovo
 //        temp.add(HomeItemModel.HomeItemItem(R.string.channelsCase1, R.id.toChannelsOne))
